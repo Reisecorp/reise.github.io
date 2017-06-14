@@ -1,0 +1,17 @@
+body{
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+
+	background-image: url("../img/bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.content{
+	flex: 1 0 auto;
+	width:100%;
+	margin: 0 auto;
+}

@@ -1,0 +1,68 @@
+.footer{
+	background-color: #DDD;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.footer-heading{
+	text-align: center;
+	margin: 10px;
+}
+
+
+
+.footer-info{
+
+	width: 70%;
+	margin: 5px auto;
+
+}
+
+.footer-info-address{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.footer-info-social{
+	display: none;
+}
+
+.footer-form{
+	width: 50%;
+	margin: 0 auto;
+}
+
+.footer-form-inputs{
+	display: flex;
+	flex-direction: column;
+}
+#footer-form-inputs-name,
+#footer-form-inputs-email,
+#footer-form-inputs-subject,
+#footer-form-inputs-msg{
+
+	color: #000;
+	height: 20px;
+	border: 0;
+	width: 70%;
+	margin: 5px auto;
+	padding: 5px;
+
+}
+#footer-form-inputs-msg{
+	height: 70px;
+}
+
+#footer-form-submit-button{
+	color: white;
+	background-color: black;
+	border:0;
+	padding:10px;
+	width: 70%;
+	margin: 10px auto;
+	display: block;
+}

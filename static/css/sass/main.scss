@@ -1,0 +1,26 @@
+@import "guff";
+
+// @include reset;
+
+$debug: false;
+// $debug: true;
+$breakpoint-mobile: 800px;
+
+
+@if $debug {
+	* {
+	
+		border: 0.25px solid black;
+	}
+}
+*{
+	font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import "partials/base";
+@import "partials/header";
+@import "partials/footer";
+@import "partials/testimonials";
+@import "partials/services";
+
