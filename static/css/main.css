@@ -35,6 +35,82 @@ body {
   width: 100%;
   margin: 0 auto; }
 
+@media (max-width: 767px) {
+  .header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse; } }
+
+.header .navbar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .header .navbar {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-justify-content: space-around;
+          -ms-flex-pack: distribute;
+              justify-content: space-around;
+      margin: 40px 0; } }
+  @media (min-width: 1024px) {
+    .header .navbar {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-justify-content: space-around;
+          -ms-flex-pack: distribute;
+              justify-content: space-around;
+      margin: 40px 0; } }
+  .header .navbar .navbar-item {
+    height: 50px;
+    text-align: center; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .header .navbar .navbar-item {
+        -webkit-border-radius: 150px;
+                border-radius: 150px;
+        height: 150px;
+        width: 150px;
+        background: white; } }
+    @media (min-width: 1024px) {
+      .header .navbar .navbar-item {
+        -webkit-border-radius: 150px;
+                border-radius: 150px;
+        height: 150px;
+        width: 150px;
+        background: white; } }
+    .header .navbar .navbar-item .navbar-item-link {
+      text-decoration: none;
+      font-weight: bold;
+      color: black;
+      height: 50px;
+      line-height: 50px; }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .header .navbar .navbar-item .navbar-item-link {
+          height: 150px;
+          line-height: 150px; } }
+      @media (min-width: 1024px) {
+        .header .navbar .navbar-item .navbar-item-link {
+          height: 150px;
+          line-height: 150px; } }
+
 .logo img {
   display: block;
   max-width: 200px;
@@ -45,58 +121,6 @@ body {
   @media (min-width: 1024px) {
     .logo img {
       max-width: 400px; } }
-
-.navbar {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex; }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    .navbar {
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-      -webkit-flex-direction: row;
-          -ms-flex-direction: row;
-              flex-direction: row;
-      -webkit-justify-content: space-around;
-          -ms-flex-pack: distribute;
-              justify-content: space-around;
-      margin: 40px 0; } }
-  @media (min-width: 1024px) {
-    .navbar {
-      -webkit-box-orient: horizontal;
-      -webkit-box-direction: normal;
-      -webkit-flex-direction: row;
-          -ms-flex-direction: row;
-              flex-direction: row;
-      -webkit-justify-content: space-around;
-          -ms-flex-pack: distribute;
-              justify-content: space-around;
-      margin: 40px 0; } }
-
-.navbar-item {
-  height: 50px;
-  text-align: center;
-  background: white; }
-  @media (min-width: 768px) and (max-width: 1023px) {
-    .navbar-item {
-      -webkit-border-radius: 150px;
-              border-radius: 150px;
-      height: 150px;
-      width: 150px; } }
-  @media (min-width: 1024px) {
-    .navbar-item {
-      -webkit-border-radius: 150px;
-              border-radius: 150px;
-      height: 150px;
-      width: 150px; } }
-
-.navbar-item-link {
-  height: 150px;
-  line-height: 150px;
-  text-decoration: none;
-  font-weight: bold;
-  color: black; }
 
 .footer {
   background-color: #DDD;

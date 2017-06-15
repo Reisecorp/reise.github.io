@@ -1,3 +1,67 @@
+.header{
+	@include breakpoint($mobile){
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.navbar{
+		display: flex;
+		flex-direction: column;
+
+		@include breakpoint($tablet){
+			flex-direction: row;
+			justify-content: space-around;
+			margin: 40px 0;
+		}
+
+		@include breakpoint($desktop){
+			flex-direction: row;
+			justify-content: space-around;
+			margin: 40px 0;
+		}
+		.navbar-item{
+			height: 50px;
+			text-align: center;
+			
+
+
+			@include breakpoint($tablet){
+				border-radius: 150px;
+				height: 150px;
+				width: 150px;
+				background: white;
+			}
+			@include breakpoint($desktop){
+				border-radius: 150px;
+				height: 150px;
+				width: 150px;
+				background: white;
+			}
+
+			.navbar-item-link{
+
+					text-decoration: none;
+					font-weight: bold;
+					color: black;	
+					height: 50px;
+					line-height: 50px;					
+
+								
+				@include breakpoint($tablet){
+					height: 150px;
+					line-height: 150px;
+					}
+
+				@include breakpoint($desktop){
+					height: 150px;
+					line-height: 150px;
+					}
+
+				}
+			}
+	}
+}
+
 .logo{
 
 	img{
@@ -19,47 +83,5 @@
 
 
 
-.navbar{
-	display: flex;
-	// flex-direction: column;x`
 
-	@include breakpoint($tablet){
-		flex-direction: row;
-		justify-content: space-around;
-		margin: 40px 0;
-	}
 
-	@include breakpoint($desktop){
-		flex-direction: row;
-		justify-content: space-around;
-		margin: 40px 0;
-	}
-}
-.navbar-item{
-
-	height: 50px;
-	text-align: center;
-	background: white;
-
-	// color: black;
-
-	@include breakpoint($tablet){
-		border-radius: 150px;
-		height: 150px;
-		width: 150px;
-
-	}
-	@include breakpoint($desktop){
-		border-radius: 150px;
-		height: 150px;
-		width: 150px;
-
-	}
-}
-.navbar-item-link{
-	height: 150px;
-	line-height: 150px;
-	text-decoration: none;
-	font-weight: bold;
-	color: black;
-}
