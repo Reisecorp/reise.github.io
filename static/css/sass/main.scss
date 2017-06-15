@@ -1,7 +1,5 @@
 @import "guff";
 
-// @include reset;
-
 $debug: false;
 // $debug: true;
 $breakpoint-mobile: 800px;
@@ -13,9 +11,19 @@ $breakpoint-mobile: 800px;
 		border: 0.25px solid black;
 	}
 }
-*{
-	font-family: 'Poppins', sans-serif;
+
+
+html {
+  box-sizing: border-box;
+
 }
+*, *:before, *:after {
+  box-sizing: inherit;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+
 
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 @import "partials/base";

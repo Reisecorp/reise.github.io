@@ -1,7 +1,7 @@
 <div class="footer">
 	
 	<div class="footer-heading">
-		CONTACT US
+		GET YOUR SCHOOL TRIP ORGANIZED BY US
 	</div>
 	<div class="footer-info">
 		<div class="footer-info-address">
@@ -13,14 +13,35 @@
 	</div>
 	<div class="footer-form">
 		<form action="https://formspree.io/your@email.com" method="POST">
-			<div class="footer-form-inputs">
-				<input type="text" name="Name" id="footer-form-inputs-name" value="Name">
-				<input type="email" name="Email" id="footer-form-inputs-email" value="Email">
-				<input type="text" name="Subject" id="footer-form-inputs-subject" value="Subject">
-				<textarea name="Message" id="footer-form-inputs-msg">Message</textarea>
+			<div class="form-input-table">
+				<div class="footer-form-inputs">
+					<input type="text" name="Place" class="footer-form-input" id="form-place" required />
+					<label for="form-place">Place</label>
+				</div>
+				<div class="footer-form-inputs">
+					<input type="number" name="Number of Students" class="footer-form-input" id="form-students" required />
+					<label for="form-students">No. of Students</label>
+				</div>
+				<div class="footer-form-inputs">
+					<input type="number" name="Number of Teachers" class="footer-form-input" id="form-teachers" required />
+					<label for="form-teachers">No. of Teachers</label>
+				</div>
+				<div class="footer-form-inputs">
+					<input type="date" name="Date" class="footer-form-input" id="form-date" />
+					<label for="form-date">Date</label>
+				</div>
+				<div class="footer-form-inputs">
+					<input type="tel" name="Contact Number" class="footer-form-input" id="form-contact" value="+91 "/>
+					<label for="form-contact">Contact Number</label>
+				</div>
+				<div class="footer-form-inputs">
+					<input type="email" name="Email" class="footer-form-input" id="form-email" required />
+					<label for="form-email">Email ID</label>
+				</div>
 			</div>
+
 			<div class="footer-form-submit">
-				<input type="submit" value="Send" id="footer-form-submit-button">
+				<input type="submit" value="Get a Quote" id="footer-form-submit-button" />
 			</div>
 		</form>
 	</div>
