@@ -1,8 +1,9 @@
 @import "guff";
 
+
+
 $debug: false;
 // $debug: true;
-$breakpoint-mobile: 800px;
 
 
 @if $debug {
@@ -17,7 +18,7 @@ html {
   box-sizing: border-box;
 
 }
-*, *:before, *:after {
+* {
   box-sizing: inherit;
 	font-family: 'Poppins', sans-serif;
 
@@ -31,4 +32,6 @@ html {
 @import "partials/footer";
 @import "partials/testimonials";
 @import "partials/services";
+@import "partials/hero";
+@import "partials/home_offers";
 

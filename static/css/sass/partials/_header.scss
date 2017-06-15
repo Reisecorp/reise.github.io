@@ -1,20 +1,65 @@
+.logo{
+
+	img{
+		display: block;
+		max-width: 200px;
+		margin: 0 auto;
+
+		@include breakpoint($tablet){
+			max-width: 300px;
+		}
+
+		@include breakpoint($desktop){
+			max-width: 400px;
+		}
+	}
+
+
+}
+
+
+
 .navbar{
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	margin: 40px 0;
+	// flex-direction: column;x`
+
+	@include breakpoint($tablet){
+		flex-direction: row;
+		justify-content: space-around;
+		margin: 40px 0;
+	}
+
+	@include breakpoint($desktop){
+		flex-direction: row;
+		justify-content: space-around;
+		margin: 40px 0;
+	}
 }
 .navbar-item{
-	flex:0 0 auto;
-	border-radius: 150px;
-	height: 150px;
-	width: 150px;
-	background: white;
+
+	height: 50px;
 	text-align: center;
+	background: white;
+
+	// color: black;
+
+	@include breakpoint($tablet){
+		border-radius: 150px;
+		height: 150px;
+		width: 150px;
+
+	}
+	@include breakpoint($desktop){
+		border-radius: 150px;
+		height: 150px;
+		width: 150px;
+
+	}
 }
 .navbar-item-link{
 	height: 150px;
 	line-height: 150px;
 	text-decoration: none;
+	font-weight: bold;
 	color: black;
 }
