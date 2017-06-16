@@ -140,25 +140,26 @@ body {
                 order: 4; } }
     .header .navbar .navbar-item {
       height: 50px;
-      text-align: center; }
+      text-align: center;
+      background: rgba(0, 143, 211, 0.9); }
       @media (min-width: 768px) and (max-width: 1023px) {
         .header .navbar .navbar-item {
           -webkit-border-radius: 150px;
                   border-radius: 150px;
           height: 150px;
           width: 150px;
-          background: rgba(0, 143, 211, 0.7); } }
+          background: rgba(0, 143, 211, 0.9); } }
       @media (min-width: 1024px) {
         .header .navbar .navbar-item {
           -webkit-border-radius: 150px;
                   border-radius: 150px;
           height: 150px;
           width: 150px;
-          background: rgba(0, 143, 211, 0.7); } }
+          background: rgba(0, 143, 211, 0.9); } }
       .header .navbar .navbar-item .navbar-item-link {
         text-decoration: none;
         font-weight: bold;
-        color: rgba(0, 143, 211, 0.7);
+        color: white;
         height: 50px;
         line-height: 50px; }
         @media (min-width: 768px) and (max-width: 1023px) {
