@@ -1,5 +1,5 @@
 .footer{
-	background-color: #DDD;
+	background-color: rgba(0, 143, 211, 0.9);
 	position: relative;
 	bottom: 0;
 	width: 100%;
@@ -11,6 +11,8 @@
 .footer-heading{
 	text-align: center;
 	margin: 30px auto 0 auto; 
+	color: white;
+	
 }
 
 
@@ -24,6 +26,7 @@
 .footer-info-address{
 	margin: 0 auto;
 	text-align: center;
+	color: white;
 }
 
 .footer-info-social{
@@ -63,6 +66,20 @@
 		}
 	}
 
+	#form-email{
+
+		&:invalid + label{
+			font-size: 10px;
+			font-weight: bold;
+			top: 1px;
+			left: calc(5px + 1vw);
+
+			@include breakpoint($desktop){
+				left: calc(5px + 0.25vw);
+			}
+		}
+	}
+
 	.footer-form-input{
 		background: none;
 		display: block;
@@ -87,7 +104,7 @@
 				left: calc(5px + 0.25vw);
 			}
 		}
-
+		
 		&:focus + label{
 			font-size: 10px;
 			font-weight: bold;

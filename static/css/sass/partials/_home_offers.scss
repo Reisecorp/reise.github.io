@@ -1,0 +1,175 @@
+.home-offers{
+	display: flex;
+	flex-direction: column;
+
+	@include breakpoint($tablet){
+		flex-direction: row;	
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	@include breakpoint($desktop){
+		flex-direction: row;
+		width: 70%;
+		margin: 0 auto;
+	}
+
+	.home-handpicked-offers{
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+		margin: 20px auto 20px 0;
+
+		@include breakpoint($tablet){
+			width: 45%
+
+		}
+
+		@include breakpoint($desktop){
+			max-width: 45%;
+		}
+
+		.home-handpicked-offers-header{
+			display: flex;
+			justify-content: space-between;
+
+
+			.handpicked-offers-icon{
+				color: white;
+				font-size: 2em;
+				padding: 5px;
+				margin-right: 10px;
+				border: 5px solid rgba(255,255,255, 0.8);
+			}
+
+			.handpicked-offers-title{
+				font-weight: bold;
+				font-size: 18px;
+				flex: 1 0 auto;
+				text-align: center;
+				margin: 0 auto;
+				color: rgba(0, 143, 211, 1);
+				background-color: rgba(255,255,255, 0.8);
+			  	height: 52px;
+				line-height: 52px;
+				box-sizing: border-box;
+
+
+			}
+		}
+
+		.home-handpicked-offers-content{
+			background-color: rgba(255,255,255, 0.8);
+			margin: 10px 0;
+			
+			.handpicked-offers-list{
+				list-style: none;
+				padding: 0 25px;
+
+				.handpicked-offer{
+
+					.handpicked-offer-link{
+						text-decoration: none;
+						color: rgba(0, 143, 211, 1);
+					}
+				}
+			}
+
+			.handpicked-offers-more{
+				padding: 10px;
+				display: flex;
+				justify-content: flex-end;
+				color: rgba(0, 143, 211, 1);
+
+				i{
+					font-size: 1.5em;
+				}
+
+				.handpicked-offers-details{
+					margin: auto 5px;
+				}
+
+			}
+
+		}
+	}	
+
+	.home-summer-destinations{
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+		margin: 20px 0 20px auto;
+
+		@include breakpoint($tablet){
+			width: 45%
+		}
+
+		@include breakpoint($desktop){
+			width: 45%;
+		}
+
+		.home-summer-destinations-header{
+			display: flex;
+			justify-content: space-between;
+
+
+			.summer-destinations-icon{
+				color: white;
+				font-size: 2em;
+				padding: 5px;
+				margin-right: 10px;
+				border: 5px solid rgba(255,255,255, 0.8);
+			}
+
+			.summer-destinations-title{
+				font-weight: bold;
+				font-size: 18px;
+				flex: 1 0 auto;
+				text-align: center;
+				margin: 0 auto;
+				color: rgba(0, 143, 211, 1);
+				background-color: rgba(255,255,255, 0.8);
+			  	height: 52px;
+				line-height: 52px;
+				box-sizing: border-box;
+
+
+			}
+		}
+
+		.home-summer-destinations-content{
+			background-color: rgba(255,255,255, 0.8);
+			margin: 10px 0;
+			
+			.summer-destinations-list{
+				list-style: none;
+				padding: 0 25px;
+
+				.summer-destination{
+
+					.summer-destination-link{
+						text-decoration: none;
+						color: rgba(0, 143, 211, 1);
+					}
+				}
+			}
+
+			.summer-destinations-more{
+				padding: 10px;
+				display: flex;
+				justify-content: flex-end;
+				color: rgba(0, 143, 211, 1);
+
+				i{
+					font-size: 1.5em;
+				}
+
+				.summer-destinations-details{
+					margin: auto 5px;
+				}
+
+			}
+
+		}
+	}	
+}

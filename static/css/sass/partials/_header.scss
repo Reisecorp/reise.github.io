@@ -1,23 +1,72 @@
 .header{
-	@include breakpoint($mobile){
-		display: flex;
-		flex-direction: column-reverse;
+
+	display: flex;
+			flex-direction: column;
+
+	
+	.logo{
+		flex: 1 0 auto;
+		order: 2;
+
+		img{
+			display: block;
+			max-width: 200px;
+			margin: 0 auto;
+
+
+			@include breakpoint($tablet){
+				max-width: 300px;
+			}
+
+			@include breakpoint($desktop){
+				max-width: 300px;
+			}
+		}
+
+
 	}
 
+	.tagline{
+		order: 3;
+		flex: 1 0 auto;
+		color:rgba(0, 143, 211, 1);
+		text-align: center;
+		margin: 0 auto;
+		font-size: 20px;
+		font-weight: bold;
+
+		@include breakpoint($tablet){
+			font-size: 25px;
+		}
+
+		@include breakpoint($desktop){
+			font-size: 25px;
+		}
+	}
+
+
 	.navbar{
+		flex: 1 0 auto;
+		
 		display: flex;
 		flex-direction: column;
+
+		@include breakpoint($mobile){
+			order: 1;
+		}
 
 		@include breakpoint($tablet){
 			flex-direction: row;
 			justify-content: space-around;
 			margin: 40px 0;
+			order:4;
 		}
 
 		@include breakpoint($desktop){
 			flex-direction: row;
 			justify-content: space-around;
 			margin: 40px 0;
+			order:4;
 		}
 		.navbar-item{
 			height: 50px;
@@ -29,32 +78,36 @@
 				border-radius: 150px;
 				height: 150px;
 				width: 150px;
-				background: white;
+				background: rgba(0, 143, 211, 0.7);
+
 			}
 			@include breakpoint($desktop){
 				border-radius: 150px;
 				height: 150px;
 				width: 150px;
-				background: white;
+				background: rgba(0, 143, 211, 0.7);
+
 			}
 
 			.navbar-item-link{
 
 					text-decoration: none;
 					font-weight: bold;
-					color: black;	
+					color: rgba(0, 143, 211, 0.7);	
 					height: 50px;
-					line-height: 50px;					
+					line-height: 50px;	
 
-								
+							
 				@include breakpoint($tablet){
 					height: 150px;
 					line-height: 150px;
+					color: white;
 					}
 
 				@include breakpoint($desktop){
 					height: 150px;
 					line-height: 150px;
+					color: white;					
 					}
 
 				}
@@ -62,24 +115,6 @@
 	}
 }
 
-.logo{
-
-	img{
-		display: block;
-		max-width: 200px;
-		margin: 0 auto;
-
-		@include breakpoint($tablet){
-			max-width: 300px;
-		}
-
-		@include breakpoint($desktop){
-			max-width: 400px;
-		}
-	}
-
-
-}
 
 
 
