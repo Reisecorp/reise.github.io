@@ -479,8 +479,8 @@ body {
           line-height: calc(24px + 2vw); } }
       @media (min-width: 1024px) {
         .hero .right .right-text {
-          font-size: -webkit-calc(23px + 2vw);
-          font-size: calc(23px + 2vw);
+          font-size: -webkit-calc(25px + 2vw);
+          font-size: calc(25px + 2vw);
           line-height: -webkit-calc(24px + 2vw);
           line-height: calc(24px + 2vw); } }
 
