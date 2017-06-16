@@ -550,7 +550,7 @@ body {
         font-size: 2em;
         padding: 5px;
         margin-right: 10px;
-        border: 5px solid rgba(255, 255, 255, 0.8); }
+        border: 5px solid rgba(255, 255, 255, 0.7); }
       .home-offers .home-handpicked-offers .home-handpicked-offers-header .handpicked-offers-title {
         font-weight: bold;
         font-size: 18px;
@@ -560,21 +560,21 @@ body {
                 flex: 1 0 auto;
         text-align: center;
         margin: 0 auto;
-        color: #009c9e;
-        background-color: rgba(255, 255, 255, 0.8);
+        color: #008fd3;
+        background-color: rgba(255, 255, 255, 0.7);
         height: 52px;
         line-height: 52px;
         -webkit-box-sizing: border-box;
                 box-sizing: border-box; }
     .home-offers .home-handpicked-offers .home-handpicked-offers-content {
-      background-color: rgba(255, 255, 255, 0.8);
+      background-color: rgba(255, 255, 255, 0.7);
       margin: 10px 0; }
       .home-offers .home-handpicked-offers .home-handpicked-offers-content .handpicked-offers-list {
         list-style: none;
         padding: 0 25px; }
         .home-offers .home-handpicked-offers .home-handpicked-offers-content .handpicked-offers-list .handpicked-offer .handpicked-offer-link {
           text-decoration: none;
-          color: #009c9e; }
+          color: #008fd3; }
       .home-offers .home-handpicked-offers .home-handpicked-offers-content .handpicked-offers-more {
         padding: 10px;
         display: -webkit-box;
@@ -585,7 +585,7 @@ body {
         -webkit-justify-content: flex-end;
             -ms-flex-pack: end;
                 justify-content: flex-end;
-        color: #009c9e; }
+        color: #008fd3; }
         .home-offers .home-handpicked-offers .home-handpicked-offers-content .handpicked-offers-more i {
           font-size: 1.5em; }
         .home-offers .home-handpicked-offers .home-handpicked-offers-content .handpicked-offers-more .handpicked-offers-details {
@@ -624,7 +624,7 @@ body {
         font-size: 2em;
         padding: 5px;
         margin-right: 10px;
-        border: 5px solid rgba(255, 255, 255, 0.8); }
+        border: 5px solid rgba(255, 255, 255, 0.7); }
       .home-offers .home-summer-destinations .home-summer-destinations-header .summer-destinations-title {
         font-weight: bold;
         font-size: 18px;
@@ -634,21 +634,21 @@ body {
                 flex: 1 0 auto;
         text-align: center;
         margin: 0 auto;
-        color: #009c9e;
-        background-color: rgba(255, 255, 255, 0.8);
+        color: #008fd3;
+        background-color: rgba(255, 255, 255, 0.7);
         height: 52px;
         line-height: 52px;
         -webkit-box-sizing: border-box;
                 box-sizing: border-box; }
     .home-offers .home-summer-destinations .home-summer-destinations-content {
-      background-color: rgba(255, 255, 255, 0.8);
+      background-color: rgba(255, 255, 255, 0.7);
       margin: 10px 0; }
       .home-offers .home-summer-destinations .home-summer-destinations-content .summer-destinations-list {
         list-style: none;
         padding: 0 25px; }
         .home-offers .home-summer-destinations .home-summer-destinations-content .summer-destinations-list .summer-destination .summer-destination-link {
           text-decoration: none;
-          color: #009c9e; }
+          color: #008fd3; }
       .home-offers .home-summer-destinations .home-summer-destinations-content .summer-destinations-more {
         padding: 10px;
         display: -webkit-box;
@@ -659,7 +659,7 @@ body {
         -webkit-justify-content: flex-end;
             -ms-flex-pack: end;
                 justify-content: flex-end;
-        color: #009c9e; }
+        color: #008fd3; }
         .home-offers .home-summer-destinations .home-summer-destinations-content .summer-destinations-more i {
           font-size: 1.5em; }
         .home-offers .home-summer-destinations .home-summer-destinations-content .summer-destinations-more .summer-destinations-details {

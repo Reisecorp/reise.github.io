@@ -42,7 +42,7 @@
 				font-size: 2em;
 				padding: 5px;
 				margin-right: 10px;
-				border: 5px solid rgba(255,255,255, 0.8);
+				border: 5px solid $transparent-white-bg;
 			}
 
 			.handpicked-offers-title{
@@ -51,8 +51,8 @@
 				flex: 1 0 auto;
 				text-align: center;
 				margin: 0 auto;
-				color: $dark-turquoise;
-				background-color: rgba(255,255,255, 0.8);
+				color: $spec-blue;
+				background-color: $transparent-white-bg;
 			  	height: 52px;
 				line-height: 52px;
 				box-sizing: border-box;
@@ -62,7 +62,7 @@
 		}
 
 		.home-handpicked-offers-content{
-			background-color: rgba(255,255,255, 0.8);
+			background-color: $transparent-white-bg;
 			margin: 10px 0;
 			
 			.handpicked-offers-list{
@@ -73,7 +73,7 @@
 
 					.handpicked-offer-link{
 						text-decoration: none;
-						color: $dark-turquoise;
+						color: $spec-blue;
 					}
 				}
 			}
@@ -82,7 +82,7 @@
 				padding: 10px;
 				display: flex;
 				justify-content: flex-end;
-				color: $dark-turquoise;
+				color: $spec-blue;
 
 				i{
 					font-size: 1.5em;
@@ -124,7 +124,7 @@
 				font-size: 2em;
 				padding: 5px;
 				margin-right: 10px;
-				border: 5px solid rgba(255,255,255, 0.8);
+				border: 5px solid $transparent-white-bg;
 			}
 
 			.summer-destinations-title{
@@ -133,8 +133,8 @@
 				flex: 1 0 auto;
 				text-align: center;
 				margin: 0 auto;
-				color: $dark-turquoise;
-				background-color: rgba(255,255,255, 0.8);
+				color: $spec-blue;
+				background-color: $transparent-white-bg;
 			  	height: 52px;
 				line-height: 52px;
 				box-sizing: border-box;
@@ -144,7 +144,7 @@
 		}
 
 		.home-summer-destinations-content{
-			background-color: rgba(255,255,255, 0.8);
+			background-color: $transparent-white-bg;
 			margin: 10px 0;
 			
 			.summer-destinations-list{
@@ -155,7 +155,7 @@
 
 					.summer-destination-link{
 						text-decoration: none;
-						color: $dark-turquoise;
+						color: $spec-blue;
 					}
 				}
 			}
@@ -164,7 +164,7 @@
 				padding: 10px;
 				display: flex;
 				justify-content: flex-end;
-				color: $dark-turquoise;
+				color: $spec-blue;
 
 				i{
 					font-size: 1.5em;
