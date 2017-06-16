@@ -19,15 +19,18 @@
 		display: flex;
 		flex-direction: column;
 		width: 90%;
-		margin: 20px auto 20px 0;
+		margin: 20px auto;
 
 		@include breakpoint($tablet){
-			width: 50%
+			width: 45%;
+			margin: 20px auto 20px 0;
 
 		}
 
 		@include breakpoint($desktop){
-			width: 40%;
+			width: 45%;
+			margin: 20px auto 20px 0;
+					
 		}
 		
 
@@ -85,19 +88,23 @@
 
 	.right{
 		display: block;
-		margin: 20px 0 20px auto;
 		padding: 10px;
 		width: 90vw;
 		border: 5px solid white;
 		max-width: 500px;
+		margin: 20px auto;
 
 		@include breakpoint($tablet){
-			max-width: 40vw;
+			max-width: 45vw;
 			border-width: 10px;
+			margin: 20px 0 20px auto;
+
 		}
 		@include breakpoint($desktop){
-			max-width: 40vw;
+			max-width: 35vw;
 			border-width: 10px;
+			margin: 20px 0 20px auto;
+
 		}
 
 		.right-text{
@@ -107,7 +114,7 @@
 			margin-bottom: 20px;
 
 			@include breakpoint($tablet){
-				font-size: calc(25px + 2vw);
+				font-size: calc(30px + 2vw);
 				line-height: calc(24px + 2vw);
 			}
 
