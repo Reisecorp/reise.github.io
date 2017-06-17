@@ -60,14 +60,14 @@
 			flex-direction: row;
 			justify-content: flex-end;
 			width: 90%;
-			margin: 20px auto;
+			margin: 20px auto 0 auto;
 			order:4;
 		}
 
 		@include breakpoint($desktop){
 			flex-direction: row;
 			justify-content: flex-end;
-			margin: 40px auto;
+			margin: 20px auto 0 auto;
 			width: 70%;	
 			order:4;
 		}
