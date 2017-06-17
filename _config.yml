@@ -41,3 +41,8 @@ exclude:
   - LICENSE
   - README.md
   - .gitignore
+
+collections:
+  destinations:
+    output: true
+    permalink: /:collection/
