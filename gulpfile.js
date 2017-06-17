@@ -2,6 +2,7 @@ var gulp = require('gulp'),
 	sass = require('gulp-sass'),
 	cp = require('child_process'),
 	util = require('gulp-util'),
+    imagemin = require('gulp-imagemin'),
 	browserSync = require('browser-sync'),
 	prefix = require('gulp-autoprefixer'),	
     concat = require('gulp-concat'),
@@ -13,6 +14,8 @@ var paths = {
 	css: './static/css/',
 	jsIn: './static/js/dev/*.js',
 	jsOut: './static/js/',
+    imgIn: './static/img/dev/*',
+    imgOut: './static/img/',
 	siteRoot: '_site'
 }
 
@@ -34,7 +37,7 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
     browserSync.reload({stream: true});
 });
 
-gulp.task('browser-sync', ['sass', 'js', 'jekyll-build'], function() {
+gulp.task('browser-sync', ['sass', 'js', 'images' , 'jekyll-build'], function() {
     browserSync({
     	files: paths.siteRoot + '/**',
     	port: 4000,
@@ -44,6 +47,13 @@ gulp.task('browser-sync', ['sass', 'js', 'jekyll-build'], function() {
     });
 });
 
+gulp.task('images',function(){
+    return gulp.src(paths.imgIn)
+        .pipe(imagemin())
+        .pipe(browserSync.reload({stream: true}))
+        .pipe(gulp.dest(paths.imgOut))
+        .pipe(gulp.dest('_site/static/img'));
+});
 
 gulp.task('sass', function () {
     return gulp.src(paths.sass)
@@ -67,7 +77,7 @@ gulp.task('js',function(){
 gulp.task('watch', function () {
     gulp.watch(paths.sass, ['sass']);
     gulp.watch(paths.jsIn, ['js']);
-    gulp.watch(['*.html', '_layouts/*.html', '_includes/*.html' ], ['jekyll-rebuild']);
+    gulp.watch(['*.html', '_layouts/*.html', '_includes/*.html', '_destinations/**/*' ], ['jekyll-rebuild']);
 });
 
 
