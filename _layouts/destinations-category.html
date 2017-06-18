@@ -1,20 +1,25 @@
 ---
 layout: base
-
-
 ---
 
 {% for destination in site.collections %}
 	{% if destination.label == page.collection %}
+		{% capture label %}
+			{{ destination.label | replace: '-', ' '| downcase }}
+		{% endcapture %}
 
-	<div class="destination-category-hero" style="background-image: url('{{ site.staticfiles | prepend: site.baseurl }}/img/{{ page.background }}');" >{{ destination.label | replace: '-', ' ' | capitalize }}</div>
+	<div class="destination-category-hero" style="background-image: url('{{ site.staticfiles | prepend: site.baseurl }}/img/{{ destination.image}}');" ><span class="destination-category-hero-title">{{ destination.label | replace: '-', ' ' | capitalize }}</span></div>
 
 	<div class="destination-category-tagline">{{ page.tagline }}</div>
 
 		{% for place in destination.docs %}
-			{% unless place.title == 'Lasting Leisure' %}
+		{% capture title %}
+			{{ place.title | downcase }}
+		{% endcapture %}
+
+			{% unless title == label %}
 				<div class="destination-category-card">
-					<div class="destination-category-card-image" style="background-image: url('{{ site.staticfiles | prepend: site.baseurl }}/img/{{ place.background }}');"></div>
+					<div class="destination-category-card-image" style="background-image: url('{{ site.staticfiles | prepend: site.baseurl }}/img/{{ place.image }}');"></div>
 					<div class="destination-card-content">
 						<div class="destination-category-card-title"><a href="{{ place.url | prepend: site.baseurl }}">{{ place.title }}</a></div>
 						<div class="destination-category-card-icons"></div>

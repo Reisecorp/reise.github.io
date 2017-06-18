@@ -74,12 +74,16 @@
 		.navbar-item{
 			text-align: center;
 			background: $dark-turquoise;
+			margin: 0 10px;
 
+			
+			@include breakpoint($mobile){
+
+			}
 			
 
 
 			@include breakpoint($tablet){
-				margin: 0 10px;
 				background: none;
 			}
 			@include breakpoint($desktop){

@@ -5,7 +5,7 @@
 		{% include metadata.html %}
 
 	</head>
-	<body style="background-image: url('{{ site.staticfiles | prepend: site.baseurl }}/img/{% if page.background %}{{ page.background }}{% else %}bg.jpg{% endif %}');">
+	<body>
 		{% include navbar.html %}
 		<div class="content">
 			{{ content }}

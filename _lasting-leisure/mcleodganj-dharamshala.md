@@ -1,5 +1,5 @@
 ---
-layout: base
-background: mt-rushmore.jpg
+layout: destination
+image: mt-rushmore.jpg
 
 ---

@@ -1,0 +1,65 @@
+.destination-image{
+
+	width: 100%;
+	display: flex;
+	background-size: cover;
+	min-height: 200px;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	border: 10px solid white;
+	margin: 20px auto;
+
+	@include breakpoint($tablet){
+		min-height: 300px;
+		font-size: 35px;
+
+	}
+	@include breakpoint($desktop){
+		min-height: 400px;
+		font-size: 35px;
+	}
+
+	.destination-title{
+		display: block;
+		margin: auto;	
+		align-self: center;
+	}	
+}
+
+.destination-content{
+	padding:20px;
+	display: flex;
+	flex-direction: column;
+	margin: 20px auto;
+	
+	background: $transparent-white-bg;
+
+	.destination-content-text{
+		text-align: justify;
+		// color: $dark-turquoise;
+
+		@include breakpoint($tablet){
+			padding: 0 50px;
+		}
+		@include breakpoint($desktop){
+			padding: 0 50px;
+		}
+	}
+
+	.request-quote{
+		max-width: 400px;
+		width: 80%;
+		color: white;
+		font-weight: bold;
+		background: black;
+		margin: 0 auto;
+		padding: 10px 20px;
+		text-align: center;
+		cursor: pointer;
+
+	}
+
+
+}
