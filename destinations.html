@@ -1,0 +1,33 @@
+---
+layout: base
+permalink: /destinations/
+title: Destinations
+---
+
+<div class="destinations-hero">
+	<img src="{{ site.staticfiles | prepend: site.baseurl}}/img/mt-rushmore.jpg"/>
+</div>
+<div class="india-tours">
+	<span class="india-tours-title">India Tours</span>
+	<span class="india-offers-sub">Explore India, safety of school students ensured, lowest rates, guaranteed services</span>
+</div>
+<div class="destinations-categories">
+	{% for destination in site.collections %}
+		{% unless destination.label == 'posts' %}
+			<div class="destination-card">
+				<div class="destination-card-picture">
+					{{ destination.label | replace: '-', ' ' | capitalize }}
+				</div>
+				<div class="destination-card-places">
+					<ul class="destination-card-places-list">
+						{% for place in destination.docs limit:4 %}
+							{% unless place.title == 'Index' %}
+								<li>{{place.title}}</li>
+							{% endunless %}
+						{% endfor %}
+					</ul>
+				</div>
+			</div>
+		{% endunless %}
+	{% endfor %}
+</div>
