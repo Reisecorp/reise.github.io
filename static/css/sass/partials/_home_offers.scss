@@ -1,16 +1,15 @@
 .home-offers{
 	display: flex;
 	flex-direction: column;
+	width: 100%;
 
 	@include breakpoint($tablet){
 		flex-direction: row;	
-		width: 90%;
 		margin: 0 auto;
 	}
 
 	@include breakpoint($desktop){
 		flex-direction: row;
-		width: 70%;
 		margin: 0 auto;
 	}
 

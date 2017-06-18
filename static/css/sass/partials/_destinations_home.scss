@@ -1,0 +1,120 @@
+.destinations-hero{
+	.destinations-hero-image{
+	width: 100%;
+	display: block;
+	margin: 20px auto;
+	border: 5px solid white;
+	}
+}
+
+.india-tours{
+
+	background-color: $transparent-white-bg;
+	margin: 20px auto;
+	padding: 20px;
+
+	.india-tours-title{
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		color: $dark-olive;
+		font-size: 25px;
+	
+	}
+	.india-tours-subtitle{
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		color: $dark-olive;
+	
+	}
+}
+
+.destinations-categories{
+	display: flex;
+	flex-direction: column;
+
+	@include breakpoint($tablet){
+		flex-flow: row wrap;
+	}
+	
+	@include breakpoint($desktop){
+		flex-flow: row wrap;
+
+	}
+
+	.destination-card{
+		
+		background-color: $transparent-white-bg;
+		margin: 20px auto;
+		padding: 15px 15px 0 15px;
+		flex: 0 1 auto;
+
+		@include breakpoint($mobile){
+		width: 100%;
+
+		}
+
+		@include breakpoint($tablet){
+			width: 45%;
+
+		}
+		
+		@include breakpoint($desktop){
+			width: 47%;
+			
+			}		
+
+		.destination-card-picture-parent{
+			overflow: hidden;
+			height: 180px;
+
+
+			.destination-card-picture{
+				width: 100%;
+				height: 100%;
+				display: block;
+				margin: 0 auto;
+				text-align: center;
+				font-size: 25px;
+				font-weight: bold;
+				padding: 70px 10px;
+				background-size: cover;
+				background-clip: padding-box;
+
+
+				&:hover,
+				&:focus{
+					transition: all 0.3s;
+					transform: scale(1.1);
+
+				}
+
+				a{
+					color: white;
+					text-decoration: none;
+				}
+			}
+
+		}
+		.destination-card-places{
+			.destination-card-places-list{
+				list-style: none;
+				padding: 5px 0;
+				li{
+					display: inline-block;
+					border-radius: 5px;
+					background-color: $dark-turquoise;
+					padding: 2px 5px;
+					color: white;
+					margin: 5px auto;
+					a{
+						color: white;
+						text-decoration: none;
+					}					
+				}
+
+			}
+		}
+	}
+}

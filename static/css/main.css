@@ -25,15 +25,22 @@ body {
   -webkit-background-size: cover;
           background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center; }
+  background-position: center top; }
 
 .content {
   -webkit-box-flex: 1;
   -webkit-flex: 1 0 auto;
       -ms-flex: 1 0 auto;
           flex: 1 0 auto;
-  width: 100%;
-  margin: 0 auto; }
+  display: block;
+  margin: 0 auto;
+  width: 90%; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .content {
+      width: 90%; } }
+  @media (min-width: 1024px) {
+    .content {
+      width: 70%; } }
 
 .header {
   display: -webkit-box;
@@ -373,7 +380,6 @@ body {
       -webkit-flex-direction: row;
           -ms-flex-direction: row;
               flex-direction: row;
-      width: 90%;
       margin: 0 auto; } }
   @media (min-width: 1024px) {
     .hero {
@@ -382,7 +388,6 @@ body {
       -webkit-flex-direction: row;
           -ms-flex-direction: row;
               flex-direction: row;
-      width: 70%;
       margin: 0 auto; } }
   .hero .left {
     display: -webkit-box;
@@ -394,15 +399,15 @@ body {
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 90%;
+    width: 100%;
     margin: 20px auto; }
     @media (min-width: 768px) and (max-width: 1023px) {
       .hero .left {
-        width: 45%;
+        width: 48%;
         margin: 20px auto 20px 0; } }
     @media (min-width: 1024px) {
       .hero .left {
-        width: 40%;
+        width: 48%;
         margin: 20px auto 20px 0; } }
     .hero .left .binoculars {
       display: block;
@@ -451,19 +456,18 @@ body {
   .hero .right {
     display: block;
     padding: 10px;
-    width: 90vw;
     height: 50%;
     border: 5px solid white;
     max-width: 500px;
     margin: 20px auto; }
     @media (min-width: 768px) and (max-width: 1023px) {
       .hero .right {
-        max-width: 45vw;
+        max-width: 48%;
         border-width: 10px;
         margin: 20px 0 20px auto; } }
     @media (min-width: 1024px) {
       .hero .right {
-        max-width: 40vw;
+        max-width: 48%;
         border-width: 10px;
         margin: 20px 0 20px auto; } }
     .hero .right .right-text {
@@ -495,7 +499,8 @@ body {
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
-          flex-direction: column; }
+          flex-direction: column;
+  width: 100%; }
   @media (min-width: 768px) and (max-width: 1023px) {
     .home-offers {
       -webkit-box-orient: horizontal;
@@ -503,7 +508,6 @@ body {
       -webkit-flex-direction: row;
           -ms-flex-direction: row;
               flex-direction: row;
-      width: 90%;
       margin: 0 auto; } }
   @media (min-width: 1024px) {
     .home-offers {
@@ -512,7 +516,6 @@ body {
       -webkit-flex-direction: row;
           -ms-flex-direction: row;
               flex-direction: row;
-      width: 70%;
       margin: 0 auto; } }
   .home-offers .home-handpicked-offers {
     display: -webkit-box;
@@ -662,3 +665,107 @@ body {
           font-size: 1.5em; }
         .home-offers .home-summer-destinations .home-summer-destinations-content .summer-destinations-more .summer-destinations-details {
           margin: auto 5px; }
+
+.destinations-hero .destinations-hero-image {
+  width: 100%;
+  display: block;
+  margin: 20px auto;
+  border: 5px solid white; }
+
+.india-tours {
+  background-color: rgba(255, 255, 255, 0.7);
+  margin: 20px auto;
+  padding: 20px; }
+  .india-tours .india-tours-title {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: #223c3b;
+    font-size: 25px; }
+  .india-tours .india-tours-subtitle {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: #223c3b; }
+
+.destinations-categories {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .destinations-categories {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-flow: row wrap;
+          -ms-flex-flow: row wrap;
+              flex-flow: row wrap; } }
+  @media (min-width: 1024px) {
+    .destinations-categories {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-flow: row wrap;
+          -ms-flex-flow: row wrap;
+              flex-flow: row wrap; } }
+  .destinations-categories .destination-card {
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 20px auto;
+    padding: 15px 15px 0 15px;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 auto;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto; }
+    @media (max-width: 767px) {
+      .destinations-categories .destination-card {
+        width: 100%; } }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .destinations-categories .destination-card {
+        width: 45%; } }
+    @media (min-width: 1024px) {
+      .destinations-categories .destination-card {
+        width: 47%; } }
+    .destinations-categories .destination-card .destination-card-picture-parent {
+      overflow: hidden;
+      height: 180px; }
+      .destinations-categories .destination-card .destination-card-picture-parent .destination-card-picture {
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        padding: 70px 10px;
+        -webkit-background-size: cover;
+                background-size: cover;
+        -webkit-background-clip: padding-box;
+                background-clip: padding-box; }
+        .destinations-categories .destination-card .destination-card-picture-parent .destination-card-picture:hover, .destinations-categories .destination-card .destination-card-picture-parent .destination-card-picture:focus {
+          -webkit-transition: all 0.3s;
+          -o-transition: all 0.3s;
+          transition: all 0.3s;
+          -webkit-transform: scale(1.1);
+              -ms-transform: scale(1.1);
+                  transform: scale(1.1); }
+        .destinations-categories .destination-card .destination-card-picture-parent .destination-card-picture a {
+          color: white;
+          text-decoration: none; }
+    .destinations-categories .destination-card .destination-card-places .destination-card-places-list {
+      list-style: none;
+      padding: 5px 0; }
+      .destinations-categories .destination-card .destination-card-places .destination-card-places-list li {
+        display: inline-block;
+        -webkit-border-radius: 5px;
+                border-radius: 5px;
+        background-color: #009c9e;
+        padding: 2px 5px;
+        color: white;
+        margin: 5px auto; }
+        .destinations-categories .destination-card .destination-card-places .destination-card-places-list li a {
+          color: white;
+          text-decoration: none; }
