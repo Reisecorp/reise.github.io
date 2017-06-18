@@ -1,7 +1,6 @@
 ---
-
-title: Manali
-
+layout: base
+background: mt-rushmore.jpg
 
 ---
 

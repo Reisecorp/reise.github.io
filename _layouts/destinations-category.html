@@ -1,0 +1,27 @@
+---
+layout: base
+
+
+---
+
+{% for destination in site.collections %}
+	{% if destination.label == page.collection %}
+
+	<div class="destination-category-hero" style="background-image: url('{{ site.staticfiles | prepend: site.baseurl }}/img/{{ page.background }}');" >{{ destination.label | replace: '-', ' ' | capitalize }}</div>
+
+	<div class="destination-category-tagline">{{ page.tagline }}</div>
+
+		{% for place in destination.docs %}
+			{% unless place.title == 'Lasting Leisure' %}
+				<div class="destination-category-card">
+					<div class="destination-category-card-image" style="background-image: url('{{ site.staticfiles | prepend: site.baseurl }}/img/{{ place.background }}');"></div>
+					<div class="destination-card-content">
+						<div class="destination-category-card-title"><a href="{{ place.url | prepend: site.baseurl }}">{{ place.title }}</a></div>
+						<div class="destination-category-card-icons"></div>
+						<div class="destination-category-see-more"><a href="{{ place.url | prepend: site.baseurl }}"><i class="fa fa-plus-circle" aria-hidden="true"></i>See Details</a></div>
+					</div>
+				</div>
+			{% endunless %}
+		{% endfor %}
+	{% endif %}
+{% endfor %}
