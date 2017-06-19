@@ -47,13 +47,14 @@
 
 	.navbar{
 		flex: 1 0 auto;
-		
-		display: flex;
+		display:flex;
 		flex-direction: column;
+
 		align-items:center;
 
 		@include breakpoint($mobile){
 			order: 1;
+			margin-bottom: 30px;
 		}
 
 		@include breakpoint($tablet){
@@ -71,43 +72,84 @@
 			width: 70%;	
 			order:4;
 		}
-		.navbar-item{
-			text-align: center;
+		.menu-toggle{
+			
 			background: $dark-turquoise;
-			margin: 0 10px;
-
-			
-			@include breakpoint($mobile){
-
-			}
-			
+			width: 100%;
+			text-align: right;
 
 
 			@include breakpoint($tablet){
-				background: none;
+				display: none;
 			}
 			@include breakpoint($desktop){
-				margin: 0 10px;
-				background: none;
+				display: none;
+			}
+			#menu-toggle-button,
+			#menu-toggle-button-close{
+				color: white;
+				padding: 20px;
+				font-size: 1.5em;
+
+
+			}
+		}
+		.nav{
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+
+			@include breakpoint($tablet){
+				flex-direction: row;
+				justify-content: flex-end;
 			}
 
-			.navbar-item-link{
+			@include breakpoint($desktop){
+				flex-direction: row;
+				justify-content: flex-end;
+			}
 
-					text-decoration: none;
-					font-weight: bold;
-					color: white;
+			.navbar-item{
+				text-align: center;
+				background: $dark-turquoise;
+				
 
-							
-				@include breakpoint($tablet){
-					color: $dark-turquoise;
-					}
-
-				@include breakpoint($desktop){
-					color: $dark-turquoise;
-					}
-
+				
+				@include breakpoint($mobile){
+					width: 100%;
+					padding: 10px 0;
 				}
-			}
+				
+
+
+				@include breakpoint($tablet){
+					background: none;
+					margin: 0 10px;
+				}
+				@include breakpoint($desktop){
+					margin: 0 10px;
+					background: none;
+				}
+
+				.navbar-item-link{
+
+						text-decoration: none;
+						font-weight: bold;
+						color: white;
+
+								
+					@include breakpoint($tablet){
+						color: $dark-turquoise;
+						}
+
+					@include breakpoint($desktop){
+						color: $dark-turquoise;
+						}
+
+					}
+				}
+		}
+
 	}
 }
 
