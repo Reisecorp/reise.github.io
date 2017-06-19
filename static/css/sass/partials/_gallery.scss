@@ -1,12 +1,13 @@
 .gallery-container{
 	width: 100%;
 	box-sizing: padding-box;
+	margin: 20px auto;
 	.gallery-container-main{
 
 		width: 100%;
 		.gallery-image{
 			img{
-				width:100%;
+				width: 99%;
 				margin: 0 auto;
 				display: block;
 				border: 10px solid white;

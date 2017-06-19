@@ -9,11 +9,10 @@ $(document).ready(function(){
 			{
 				arrows: false,
 				autoplay: true,
-				fade: true,
 				speed: 500,
 				Infinite: true,
-				slidesToShow: 1,
-				slidesToScroll: 1,
+				slidesToShow: 2,
+				slidesToScroll: 2,
 				
 			});
 
@@ -31,11 +30,10 @@ $(window).on('resize', function(){
 			{
 				arrows: false,
 				autoplay: true,
-				fade: true,
 				speed: 500,
 				Infinite: true,
-				slidesToShow: 1,
-				slidesToScroll: 1,
+				slidesToShow: 2,
+				slidesToScroll: 2,
 				
 			});
 
