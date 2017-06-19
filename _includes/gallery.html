@@ -1,0 +1,14 @@
+<div class="gallery-container">
+	
+	<div class="gallery-container-main">
+	{% for file in site.static_files %}
+			{% if file.path contains 'img/gallery' %}
+		
+				<div class="gallery-image">
+					<img src="{{file.path}}" alt=""/>
+				</div>
+			
+			{% endif %}
+		{% endfor %}</div>
+
+</div>

@@ -1,0 +1,21 @@
+.gallery-container{
+	width: 100%;
+	box-sizing: padding-box;
+	.gallery-container-main{
+
+		width: 100%;
+		.gallery-image{
+			img{
+				width:100%;
+				margin: 0 auto;
+				display: block;
+				border: 10px solid white;
+
+				@include breakpoint($mobile){
+					margin: 20px auto;
+				}
+
+			}
+		}
+	}
+}

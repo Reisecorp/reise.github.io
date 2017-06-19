@@ -8,7 +8,7 @@ $(document).ready(function(){
 			$('.nav').show();
 
 	}
-})
+});
 
 $(window).on('resize',function(){
 	if ($('.nav').css('flex-direction')=='row'){

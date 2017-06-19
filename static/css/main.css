@@ -1046,3 +1046,18 @@ body {
     padding: 10px 20px;
     text-align: center;
     cursor: pointer; }
+
+.gallery-container {
+  width: 100%;
+  -webkit-box-sizing: padding-box;
+          box-sizing: padding-box; }
+  .gallery-container .gallery-container-main {
+    width: 100%; }
+    .gallery-container .gallery-container-main .gallery-image img {
+      width: 100%;
+      margin: 0 auto;
+      display: block;
+      border: 10px solid white; }
+      @media (max-width: 767px) {
+        .gallery-container .gallery-container-main .gallery-image img {
+          margin: 20px auto; } }
