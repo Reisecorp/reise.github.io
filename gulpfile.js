@@ -14,7 +14,7 @@ var paths = {
 	css: './static/css/',
 	jsIn: './static/js/dev/*.js',
 	jsOut: './static/js/',
-    imgIn: './static/img/dev/*',
+    imgIn: './static/img/dev/**/*',
     imgOut: './static/img/',
 	siteRoot: '_site'
 }
