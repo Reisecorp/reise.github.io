@@ -1,2 +1,6 @@
 ---
+layout: destination
+image: mt-rushmore.jpg
+title: Ranthambore
 ---
+This long journey remains a confluence of alluring charm. The escapade to Ranthambore extends a picturesquely continuance which is cosseted by scenic villages which immerses well in synchronization with the culture of the state. There is always a hint of unconfirmed detour as the nearby places to visit like Bhangarh and Madhogarh fort are irresistibly appealing. Visit to Ranthambore is must to imbibe the extravagance of nature that leaves you spellbound when you spot tigers and the perfect sightseeing allows you to indulge in photography. Apart from tigers  hyena, sloth bears , Wild bore and gazelles can be frequently spotted and upon catching their sight you are left overwhelmed. Numerous resorts are aptly situated in the park area itself to grant convenience and closer to nature experience. It is an impeccable road trip refreshing your being as you surrender yourself to the charm of wildlife .The place leaves you drooling over as you enjoy every miniscule bit of adventure coupled with beautiful and rejuvenating journey.

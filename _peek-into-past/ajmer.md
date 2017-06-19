@@ -1,4 +1,7 @@
 ---
-layout: base
+layout: destination
+image: mt-rushmore
+title: Ajmer
 
 ---
+Embraced enigmatically in the arms of Aravalli hills , Ajmer comfortably settles in south west of Jaipur. The place has visitors from every walk of life as the scenic beauty of this place sends everyone drool and suspends their jaw dropping with its exploration sites marvellously built. Anasagar lake aces the list for its location is pristinely perfect per say. It is an artificial lake whose construction was commenced by Arnoraja Chauhan. The views from this lake are sublime yet stunning as the horizon indulges in game of colors . The sky whose shades alter alluringly is bound to tempt every tendon of your anatomy. As you blend with the change in hue of shades you somehow are jolted back to realize the splendor of nature and its unpredictable course of providing sheer merriment. Pushkar lake too leaves no stone unturned to invigorate and rejuvenate your being and your visit here will be an account of pure ecstasy. The next place that unfolds is the Taragarh fort which is available for footfall from 9:00 AM onwards. It provides the visitors with an excellent and panoramic view of the city. Dargah Sharif is yet another place that witnesses swarm of people and the holiness of the vicinity draws everyone to it . The Dargah was built by the Mughals and needless to say it's epitome of fine craftsmanship. Least to conclude , it is a matchless masterpiece.

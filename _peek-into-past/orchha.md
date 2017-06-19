@@ -1,2 +1,6 @@
 ---
+layout: destination
+image: orchha.jpg
+title: Orchha
 ---
+The word denotes ruins thus the city of Orchha is a beautiful site in ruins which leaves the visitors captivated and soaked in unmatched solitude. Orchha was a princely state of Bundelkhand region of British India , now falls in Madhya Pradesh. 17 kms away from Jhansi , the place is drenched in timeless beauty with Betwa flowing nonchalantly and its subtle changes of shades is a sight to behold . The monuments here accosts magical touch of historic vibrance and glory which is seamlessly revered by tourists. Orchha fort is splendidly situated on the island on river Betwa. It boasts of three important palaces - Jahangir Mahal , Raj Mahal and Parveen Mahal which are a mark of regality and richness. Jhansi fort is another sorted attraction for it is rocky and rugged which shall render you unequalled thrill . In terms of fortification and glorious past it surpasses all the other forts on the land. The stay at Orchha leaves you enthralled yet enigmatic as you discover that ruins could be alluring and stunning too.

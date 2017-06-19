@@ -58,12 +58,15 @@ $('#menu-toggle-button-close').on('click',function(){
 
 
 
-$('.request-quote').on('click',function(){
+$(document).ready(function(){
 
-	$('html,body').animate({
-		scrollTop: $(document).height()
+	$('.request-quote').on('click',function(){
+
+		$('html,body').animate({
+			scrollTop: $(document).height()
+		});
 	});
-});
+});	
 
 $(document).ready(function(){
 	$('.testimonials').slick(

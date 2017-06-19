@@ -1,6 +1,9 @@
-$('.request-quote').on('click',function(){
+$(document).ready(function(){
 
-	$('html,body').animate({
-		scrollTop: $(document).height()
+	$('.request-quote').on('click',function(){
+
+		$('html,body').animate({
+			scrollTop: $(document).height()
+		});
 	});
-});
+});	

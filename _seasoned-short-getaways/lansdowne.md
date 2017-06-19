@@ -1,2 +1,7 @@
 ---
+layout: destination
+image: lansdowne.jpg
+title: Lansdowne
+
 ---
+Lansdowne hill station is situated on the Kothdwar - Pauri road at a height of 1,706 mt in Uttarakhand. Its location falls in the Pauri district of Uttarakhand, 45 kms from Kotdwar. This place is a classical short stint getaway where one can easily enjoy the floating mist in and around the place. The journey from Kotdwar to Lansdowne is nothing short of tranquillity and it is so surreal that you lose yourself amongst the gentle breeze and mist that renders a dramatic yet dazzling effect to your senses. The weather is enchanting which grants reason to undertake long walks amidst the superabundant pines and oaks. This region has bespoke historical aura to it and is meticulously maintained being a cantonment area. The area is also renowned for peaceful indulgence in bird watching , boating etc and  from the most celebrated spot - Tip and Top , one can look down upon the forest cover which is glorious green otherwise and turns all the more sensational in the winter period with flurry atop the trees. Undertaking trip to this less hustling stop for tourists , it is assured that your stint here shall be pleasant and incredible.

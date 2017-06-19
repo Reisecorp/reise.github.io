@@ -1,2 +1,7 @@
 ---
+layout: destination
+image: mt-rushmore.jpg
+title: Jaipur
+
 ---
+The city of towering forts reiterating the tales of Kings and Princes of equal splendour , Jaipur enthrals your obvious passion for history is resurfaced once again. The grandeur of Amer Fort and Jal Mahal is unparalleled to any other architecture as mighty as they are , their intimidating powers leaves you speechless. Their superlative architectural design beautified by intricate work of diligent and hearty craftsmanship makes them stand on a superior pedestal. Jaipur is the land of vibrancy and valour which is evident marvellously in its culture , hospitality and warmth. It is imperative not to miss the Hawa Mahal clad in dusk pink and red hued sandstone , the sight of it will soothe your senses as you absorb the vibe of regality emanating from it. The delicate yet intricate handwork is bound to flatter you as you fathom about the times it was built it. Apart from the aforementioned , Jaipur also boasts of The Man Sagar lake , Mubarak Mahal ,and Jantar Mantar. The marketplace is full of handicrafts and accessories , extravagant collection of ornaments cannot escape your vision. What's the halt of the heart for , The Pink City awaits you !
