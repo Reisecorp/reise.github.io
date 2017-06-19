@@ -3,13 +3,14 @@
 	<div class="tagline">Journey Awaits You!</div>
 	<div class="navbar">
 		<span class="menu-toggle"><i class="fa fa-bars" aria-hidden="true" id="menu-toggle-button"></i><i class="fa fa-times" aria-hidden="true" id="menu-toggle-button-close"></i></span>
-		<!-- <div class="pulldown"> -->
-			<div class="nav">
-				<div class="navbar-item"><a href="/" class="navbar-item-link">Home</a></div>
-				<div class="navbar-item"><a href="/destinations" class="navbar-item-link">Destinations</a></div>
-				<div class="navbar-item"><a href="" class="navbar-item-link">Services</a></div>
-				<div class="navbar-item"><a href="" class="navbar-item-link">Why Us</a></div>
-			</div>
-		<!-- </div> -->
+		<div class="nav">
+			<div class="navbar-item"><a href="/" class="navbar-item-link">Home</a></div>
+			<div class="navbar-item"><a href="/destinations" class="navbar-item-link">Destinations</a></div>
+			{% if page.title == 'Home' %}
+				<div class="navbar-item"><apan class="navbar-item-link" id="gallery">Gallery</apan></div>
+				<div class="navbar-item"><span class="navbar-item-link" id="services">Services</span></div>
+			{% endif %}					
+			<div class="navbar-item"><a href="" class="navbar-item-link">Why Us</a></div>
+		</div>
 	</div>
 </div>

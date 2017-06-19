@@ -20,13 +20,13 @@
 		margin: 20px auto;
 
 		@include breakpoint($tablet){
-			width: 48%;
+			width: 45%;
 			margin: 20px auto 20px 0;
 
 		}
 
 		@include breakpoint($desktop){
-			width: 48%;
+			width: 40%;
 			margin: 20px auto 20px 0;
 					
 		}
@@ -108,13 +108,13 @@
 		margin: 20px auto;
 
 		@include breakpoint($tablet){
-			max-width: 48%;
+			max-width: 54%;
 			border-width: 10px;
 			margin: 20px 0 20px auto;
 
 		}
 		@include breakpoint($desktop){
-			max-width: 48%;
+			max-width: 57%;
 			border-width: 10px;
 			margin: 20px 0 20px auto;
 

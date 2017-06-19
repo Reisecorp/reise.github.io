@@ -1,6 +1,6 @@
 ---
 layout: destination
-image: mt-rushmore
+image: mt-rushmore.jpg
 title: Ajmer
 
 ---
