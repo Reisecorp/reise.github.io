@@ -4,18 +4,14 @@ layout: base
 
 {% for destination in site.collections %}
 	{% if destination.label == page.collection %}
-		{% capture label %}
-			{{ destination.label | replace: '-', ' '| downcase }}
-		{% endcapture %}
+		{% capture label %}{{ destination.label | replace: '-', ' '| downcase }}{% endcapture %}
 
 	<div class="destination-category-hero" style="background-image: url('{{ site.staticfiles | prepend: site.baseurl }}/img/{{ destination.image}}');" ><span class="destination-category-hero-title">{{ destination.label | replace: '-', ' ' | capitalize }}</span></div>
 
 	<div class="destination-category-tagline">{{ page.tagline }}</div>
 	<div class="destination-category-cards">
 		{% for place in destination.docs %}
-		{% capture title %}
-			{{ place.title | downcase }}
-		{% endcapture %}
+		{% capture title %}{{ place.title | downcase }}{% endcapture %}
 
 			{% unless title == label %}
 				<div class="destination-category-card">

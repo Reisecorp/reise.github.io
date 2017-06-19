@@ -14,6 +14,7 @@ title: Destinations
 <div class="destinations-categories">
 	{% for destination in site.collections %}
 		{% unless destination.label == 'posts' %}
+			{% capture label %}{{ destination.label | slugify }}{% endcapture %}
 			<div class="destination-card">
 					<div class="destination-card-picture-parent">
 						<div class="destination-card-picture" style="background-image: url('{{ site.staticfiles | prepend: site.baseurl }}/img/{{ destination.image }}');">
@@ -23,8 +24,9 @@ title: Destinations
 				<div class="destination-card-places">
 					<ul class="destination-card-places-list">
 						{% for place in destination.docs limit:4 %}
-							{% unless place.title == 'Index' %}
-								<li><a href="{{ place.url | prepend: site.baseurl }}">{{place.title}}</a></li>
+						{% capture title %}{{ place.title | slugify }}{% endcapture %}
+							{% unless label contains title or title contains label %}
+								<li><a href="{{ place.url | prepend: site.baseurl }}">{{ place.title | capitalize }}</a></li>
 							{% endunless %}
 						{% endfor %}
 						<li><a href="{{ site.baseurl }}/destinations/{{ destination.label }}">more...</a></li>
