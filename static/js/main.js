@@ -88,7 +88,7 @@ $('#menu-toggle-button-close').on('click',function(){
 $('.request-quote').on('click',function(){
 
 	$('html,body').animate({
-		// scrollTop: $(document).height();
+		scrollTop: $(document).height()
 	});
 });
 
