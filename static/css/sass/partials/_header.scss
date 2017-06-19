@@ -74,7 +74,6 @@
 		}
 		.menu-toggle{
 			
-			background: $dark-turquoise;
 			width: 100%;
 			text-align: right;
 
@@ -88,7 +87,10 @@
 			#menu-toggle-button,
 			#menu-toggle-button-close{
 				color: white;
-				padding: 20px;
+			background: $dark-turquoise;
+				margin: 10px;
+				border-radius: 5px;
+				padding: 10px;
 				font-size: 1.5em;
 
 
@@ -111,13 +113,12 @@
 
 			.navbar-item{
 				text-align: center;
-				background: $dark-turquoise;
 				
 
 				
 				@include breakpoint($mobile){
 					width: 100%;
-					padding: 10px 0;
+					// padding: 10px 0;
 				}
 				
 
@@ -136,6 +137,15 @@
 						text-decoration: none;
 						font-weight: bold;
 						color: white;
+						display: block;
+					@include breakpoint($mobile){
+						background: $dark-turquoise;
+						padding: 5px 0;
+						width: 40%;
+						border-radius: 5px;
+						margin: 10px auto;
+
+					}
 
 								
 					@include breakpoint($tablet){
