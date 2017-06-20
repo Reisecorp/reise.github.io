@@ -230,7 +230,7 @@ body {
               margin: 10px auto; } }
 
 .footer {
-  background-color: #003459;
+  background-color: #05668d;
   position: relative;
   bottom: 0;
   width: 100%;
@@ -249,7 +249,7 @@ body {
           justify-content: center; }
   .footer .footer-heading {
     text-align: center;
-    color: #003459;
+    color: #05668d;
     background-color: #009c9e;
     width: 100%;
     padding: 20px;
@@ -376,7 +376,7 @@ body {
                 left: calc(5px + 0.25vw); } }
       .footer .footer-content .footer-form #footer-form-submit-button {
         color: white;
-        background-color: black;
+        background-color: #009c9e;
         border: 0;
         padding: 5px;
         width: 100%;
@@ -1228,7 +1228,7 @@ body {
   padding: 30px;
   margin: 20px auto;
   background: rgba(255, 255, 255, 0.8);
-  color: #003459;
+  color: #05668d;
   text-align: justify; }
   @media (min-width: 768px) and (max-width: 1023px) {
     .why-us-text {
