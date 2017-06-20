@@ -603,7 +603,7 @@ body {
         margin: 20px auto; } }
     @media (min-width: 1024px) {
       .home-offers .home-handpicked-offers {
-        max-width: 49%;
+        max-width: 43%;
         margin: 20px auto; } }
     .home-offers .home-handpicked-offers .home-handpicked-offers-header {
       display: -webkit-box;
@@ -637,11 +637,24 @@ body {
                 box-sizing: border-box; }
     .home-offers .home-handpicked-offers .home-handpicked-offers-content {
       background-color: rgba(255, 255, 255, 0.8);
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
       margin: 10px 0;
-      height: 210px; }
+      height: 200px; }
       .home-offers .home-handpicked-offers .home-handpicked-offers-content .handpicked-offers-list {
         list-style: none;
-        padding: 0 25px; }
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 0 auto;
+            -ms-flex: 1 0 auto;
+                flex: 1 0 auto;
+        padding: 10px 25px; }
         .home-offers .home-handpicked-offers .home-handpicked-offers-content .handpicked-offers-list .handpicked-offer .handpicked-offer-link {
           display: block;
           text-decoration: none;
@@ -679,7 +692,7 @@ body {
         margin: 20px auto; } }
     @media (min-width: 1024px) {
       .home-offers .home-summer-destinations {
-        width: 49%;
+        width: 55%;
         margin: 20px auto; } }
     .home-offers .home-summer-destinations .home-summer-destinations-header {
       display: -webkit-box;
@@ -729,8 +742,8 @@ body {
         list-style: none;
         padding: 5px; }
         .home-offers .home-summer-destinations .home-summer-destinations-content .summer-destinations-list .summer-destination {
-          height: 180px;
-          line-height: 180px;
+          height: 250px;
+          line-height: 250px;
           width: 100%;
           -webkit-background-size: cover;
                   background-size: cover;
@@ -987,10 +1000,10 @@ body {
         -webkit-flex: 1 0 auto;
             -ms-flex: 1 0 auto;
                 flex: 1 0 auto;
-        margin: 10px auto; }
+        margin: 0 auto; }
         .destination-category-cards .destination-category-card .destination-card-content .destination-category-card-title a {
-          font-size: 20px;
-          color: #009c9e;
+          font-size: 25px;
+          color: #008fd3;
           text-decoration: none; }
           @media (min-width: 768px) and (max-width: 1023px) {
             .destination-category-cards .destination-category-card .destination-card-content .destination-category-card-title a {
@@ -998,24 +1011,6 @@ body {
           @media (min-width: 1024px) {
             .destination-category-cards .destination-category-card .destination-card-content .destination-category-card-title a {
               font-size: 25px; } }
-      .destination-category-cards .destination-category-card .destination-card-content .destination-category-card-icons {
-        color: #223c3b; }
-      .destination-category-cards .destination-category-card .destination-card-content .destination-category-card-content {
-        padding: 20px;
-        text-align: justify; }
-      .destination-category-cards .destination-category-card .destination-card-content .destination-category-see-more {
-        text-align: right; }
-        .destination-category-cards .destination-category-card .destination-card-content .destination-category-see-more a {
-          text-decoration: none;
-          color: #009c9e; }
-          @media (min-width: 768px) and (max-width: 1023px) {
-            .destination-category-cards .destination-category-card .destination-card-content .destination-category-see-more a {
-              font-size: 15px; } }
-          @media (min-width: 1024px) {
-            .destination-category-cards .destination-category-card .destination-card-content .destination-category-see-more a {
-              font-size: 20px; } }
-          .destination-category-cards .destination-category-card .destination-card-content .destination-category-see-more a i {
-            margin: 0 5px; }
 
 .destination-image {
   width: 100%;

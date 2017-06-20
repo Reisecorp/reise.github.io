@@ -26,7 +26,7 @@
 		}
 
 		@include breakpoint($desktop){
-			max-width: 49%;
+			max-width: 43%;
 			margin: 20px auto;
 
 		}
@@ -62,12 +62,15 @@
 
 		.home-handpicked-offers-content{
 			background-color: $transparent-white-bg;
+			display: flex;
+			flex-direction: column;
 			margin: 10px 0;
-			height: 210px;
+			height: 200px;
 
 			.handpicked-offers-list{
 				list-style: none;
-				padding: 0 25px;
+				flex: 1 0 auto;
+				padding: 10px 25px;
 
 				.handpicked-offer{
 
@@ -111,7 +114,7 @@
 		}
 
 		@include breakpoint($desktop){
-			width: 49%;
+			width: 55%;
 			margin: 20px auto;			
 		}
 
@@ -169,8 +172,8 @@
 				padding: 5px;
 
 				.summer-destination{
-					height: 180px;
-					line-height: 180px;
+					height: 250px;
+					line-height: 250px;
 					width: 100%;
 					background-size: cover;
 					margin: 10px;

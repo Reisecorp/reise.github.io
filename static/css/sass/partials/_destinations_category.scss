@@ -99,10 +99,10 @@
 
 			.destination-category-card-title{
 				flex: 1 0 auto;
-				margin: 10px auto;
+				margin: 0 auto;
 				a{
-					font-size: 20px;
-					color: $dark-turquoise;
+					font-size: 25px;
+					color: $spec-blue;
 					text-decoration: none;	
 
 					@include breakpoint($tablet){
@@ -115,35 +115,7 @@
 
 
 			}
-			.destination-category-card-icons{
-				color: $dark-olive;
-				
 
-			}
-			.destination-category-card-content{
-				padding: 20px;
-				
-				text-align: justify;
-			}
-			.destination-category-see-more{
-			
-				text-align: right;
-				a{
-					text-decoration: none;
-					color: $dark-turquoise;
-
-					@include breakpoint($tablet){
-						font-size: 15px;
-					}
-					@include breakpoint($desktop){
-						font-size: 20px;
-					}				
-
-					i{
-						margin: 0 5px;
-					}
-					}
-			}
 		}
 		
 	}

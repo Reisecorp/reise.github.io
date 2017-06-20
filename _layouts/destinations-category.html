@@ -18,8 +18,6 @@ layout: base
 					<div class="destination-category-card-image" style="background-image: url('{{ site.staticfiles | prepend: site.baseurl }}/img/{{ place.image }}');"></div>
 					<div class="destination-card-content">
 						<div class="destination-category-card-title"><a href="{{ place.url | prepend: site.baseurl }}">{{ place.title }}</a></div>
-						<div class="destination-category-card-icons"></div>
-						<div class="destination-category-see-more"><a href="{{ place.url | prepend: site.baseurl }}"><i class="fa fa-plus-circle" aria-hidden="true"></i>See Details</a></div>
 					</div>
 				</div>
 			{% endunless %}
