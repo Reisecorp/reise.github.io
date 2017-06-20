@@ -819,6 +819,37 @@ body {
         .home-offers .home-summer-destinations .home-summer-destinations-content .summer-destinations-more .summer-destinations-details {
           margin: auto 5px; }
 
+.destinations-heading {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 10px auto; }
+  .destinations-heading i {
+    border: 10px solid rgba(255, 255, 255, 0.4);
+    margin-right: 10px;
+    font-size: 2em;
+    color: white;
+    height: 90px;
+    padding: 20px; }
+  .destinations-heading .destinations-title {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    height: 90px;
+    line-height: 90px;
+    background: rgba(255, 255, 255, 0.4); }
+
 .destinations-hero .destinations-hero-image {
   width: 100%;
   display: block;
@@ -1166,6 +1197,37 @@ body {
       @media (max-width: 767px) {
         .gallery-container .gallery-container-main .gallery-image img {
           margin: 20px auto; } }
+
+.why-us-heading {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 10px auto; }
+  .why-us-heading i {
+    border: 10px solid rgba(255, 255, 255, 0.4);
+    margin-right: 10px;
+    font-size: 2em;
+    color: white;
+    height: 90px;
+    padding: 20px; }
+  .why-us-heading .why-us-title {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    height: 90px;
+    line-height: 90px;
+    background: rgba(255, 255, 255, 0.4); }
 
 .why-us-text {
   padding: 30px;

@@ -1,3 +1,29 @@
+
+.destinations-heading{
+
+	display: flex;
+	flex-direction: row;
+	margin: 10px auto;
+	i{
+		border: 10px solid $more-transparent-white-bg;		
+		margin-right: 10px;
+		font-size: 2em;
+		color: white;
+		height: 90px;
+		padding: 20px;
+	}
+	.destinations-title{
+		flex: 1 0 auto;
+		text-align: center;
+		font-weight: bold;
+		color: white;
+		font-size: 25px;
+		height: 90px;
+		line-height: 90px;
+		background: $more-transparent-white-bg;
+	}
+}
+
 .destinations-hero{
 	.destinations-hero-image{
 	width: 100%;
