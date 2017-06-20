@@ -1171,7 +1171,7 @@ body {
   padding: 30px;
   margin: 20px auto;
   background: rgba(255, 255, 255, 0.8);
-  color: #009c9e;
+  color: #003459;
   text-align: justify; }
   @media (min-width: 768px) and (max-width: 1023px) {
     .why-us-text {
@@ -1220,7 +1220,7 @@ body {
         height: 200px; }
     .why-us-content .why-us-content-blocks .why-us-block .why-us-block-title {
       background: rgba(255, 255, 255, 0.8);
-      color: #008fd3;
+      color: #003459;
       margin: 10px auto;
       padding: 5px 10px;
       text-align: center;
