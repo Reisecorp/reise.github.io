@@ -2,13 +2,29 @@
 	width: 100%;
 	box-sizing: padding-box;
 	margin: 20px auto;
-	.gallery-container-title{
-		font-size: 25px;
-		padding: 20px;
+	.gallery-container-heading{
+
+		display: flex;
+		flex-direction: row;
 		margin: 10px auto;
-		display: block;
-		color: $dark-turquoise;
-		background: $transparent-white-bg;
+		i{
+			border: 10px solid $more-transparent-white-bg;		
+			margin-right: 10px;
+			font-size: 2em;
+			color: white;
+			height: 90px;
+			padding: 20px;
+		}
+		.gallery-container-title{
+			flex: 1 0 auto;
+			text-align: center;
+			font-weight: bold;
+			color: white;
+			font-size: 25px;
+			height: 90px;
+			line-height: 90px;
+			background: $more-transparent-white-bg;
+		}
 	}
 	.gallery-container-main{
 

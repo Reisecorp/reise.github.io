@@ -1,5 +1,8 @@
 <div class="gallery-container">
-	<div class="gallery-container-title">Gallery</div>
+	<div class="gallery-container-heading">
+		<i class="fa fa-plane" aria-hidden="true"></i>
+		<span class="gallery-container-title">Gallery</span>
+	</div>
 	<div class="gallery-container-main">
 	{% for file in site.static_files %}
 			{% if file.path contains 'img/gallery' %}

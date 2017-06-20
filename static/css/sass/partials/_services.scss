@@ -4,53 +4,71 @@
 	height: auto;
 	padding: 20px 0;
 	margin: 20px auto;
-}
-.services-title{
-	font-size: 25px;
-	padding: 20px 20px;
-	display: block;
-	margin: 20px auto;
-	color: $dark-turquoise;
-	background: $transparent-white-bg;
-}
-.services-table{
-	
 
-	width: 100%;
-	margin: 10px auto;
+	.services-heading{
 
-	@include breakpoint($tablet){
-		column-count: 2;
-		column-gap: 30px;
+		display: flex;
+		flex-direction: row;
+		margin: 10px auto;
+		i{
+			border: 10px solid $more-transparent-white-bg;		
+			margin-right: 10px;
+			font-size: 2em;
+			color: white;
+			height: 90px;
+			padding: 20px;
+		}
+		.services-title{
+			flex: 1 0 auto;
+			text-align: center;
+			font-weight: bold;
+			color: white;
+			font-size: 25px;
+			height: 90px;
+			line-height: 90px;
+			background: $more-transparent-white-bg;
+		}
 	}
-	@include breakpoint($desktop){
+	.services-table{
 		
 
-		column-count: 3;
-		column-gap: 20px;
-	}
-}
-.service{
-	display: flex;
-	flex-direction: column;
-	padding: 40px 0;
-	text-align: center;
-	background: $dark-turquoise;
-	margin:0 auto 40px auto; 
-	max-width: 300px;
-	break-inside: avoid;
-	min-height: 250px;
-	color: white;
+		width: 100%;
+		margin: 10px auto;
 
-}
-.service-title{
-	font-weight: bold;
-	width: 90%;
-	display: block;
-	margin: 10px auto;	
-}
-.service-description{
-	padding:0 20px;
-	text-align:justify;
-	font-size: 12px;
+		@include breakpoint($tablet){
+			column-count: 2;
+			column-gap: 30px;
+		}
+		@include breakpoint($desktop){
+			
+
+			column-count: 3;
+			column-gap: 20px;
+		}
+	}
+	.service{
+		display: flex;
+		flex-direction: column;
+		padding: 40px 0;
+		text-align: center;
+		background: $dark-turquoise;
+		margin:0 auto 40px auto; 
+		max-width: 300px;
+		break-inside: avoid;
+		min-height: 250px;
+		color: white;
+
+	}
+	.service-title{
+		font-weight: bold;
+		width: 90%;
+		display: block;
+		margin: 10px auto;	
+	}
+	.service-description{
+		padding:0 20px;
+		text-align:justify;
+		font-size: 12px;
+	}
+
 }
