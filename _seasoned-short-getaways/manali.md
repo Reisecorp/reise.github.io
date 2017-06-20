@@ -1,6 +1,6 @@
 ---
 layout: destination
-image: mt-rushmore.jpg
+image: manali.jpg
 title: Manali
 
 ---

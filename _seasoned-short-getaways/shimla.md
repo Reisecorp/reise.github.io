@@ -1,6 +1,6 @@
 ---
 layout: destination
-image: mt-rushmore.jpg
+image: shimla.jpg
 title: Shimla
 
 ---
