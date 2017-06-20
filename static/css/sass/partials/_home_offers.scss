@@ -50,7 +50,7 @@
 				flex: 1 0 auto;
 				text-align: center;
 				margin: 0 auto;
-				color: $spec-blue;
+				color: white;
 				background-color: $more-transparent-white-bg;
 			  	height: 52px;
 				line-height: 52px;
@@ -132,7 +132,7 @@
 				flex: 1 0 auto;
 				text-align: center;
 				margin: 0 auto;
-				color: $spec-blue;
+				color: white;
 				background-color: $more-transparent-white-bg;
 			  	height: 52px;
 				line-height: 52px;
@@ -145,6 +145,21 @@
 		.home-summer-destinations-content{
 			background-color: $transparent-white-bg;
 			margin: 10px 0;
+
+
+			.summer-destinations-top-four{
+				position: relative;
+				top:0;
+				left: 0;
+				width: 100%;
+
+				img{
+					position: absolute;
+					top: -1px;
+					right:10px;
+					width: 50px;
+				}
+			}
 			
 			.summer-destinations-list{
 				list-style: none;
@@ -158,7 +173,7 @@
 					}
 				}
 			}
-
+		
 			.summer-destinations-more{
 				padding: 10px;
 				display: flex;

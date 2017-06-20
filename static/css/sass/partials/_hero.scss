@@ -76,14 +76,13 @@
 		}
 
 		.hero-search-link{
-			text-align: center;
-			color: white;
-			font-weight: bold;
-			font-size: 20px;
-			width:50%;
-			margin: 5px auto;
-			background: $dark-turquoise;
-			padding: 10px 40px;
+			a{
+				img{
+					width: 250px;
+					display: block;
+					margin: 10px auto;
+				}
+			}
 		}
 
 		.hero-search-link-below{
@@ -104,7 +103,7 @@
 		padding: 10px;
 		height: 50%;
 		border: 5px solid white;
-		max-width: 500px;
+		max-width: 80vw;
 		margin: 20px auto;
 
 		@include breakpoint($tablet){

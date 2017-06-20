@@ -21,7 +21,7 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   min-height: 100vh;
-  background-image: url("../img/bg.png");
+  background-image: url("../img/bg.webp");
   -webkit-background-size: cover;
           background-size: cover;
   background-repeat: no-repeat;
@@ -508,15 +508,10 @@ body {
         @media (min-width: 768px) and (max-width: 1023px) {
           .hero .left .hero-social-icons .hero-social-icon {
             font-size: 3em; } }
-    .hero .left .hero-search-link {
-      text-align: center;
-      color: white;
-      font-weight: bold;
-      font-size: 20px;
-      width: 50%;
-      margin: 5px auto;
-      background: #009c9e;
-      padding: 10px 40px; }
+    .hero .left .hero-search-link a img {
+      width: 250px;
+      display: block;
+      margin: 10px auto; }
     .hero .left .hero-search-link-below {
       text-align: center;
       color: white;
@@ -530,7 +525,7 @@ body {
     padding: 10px;
     height: 50%;
     border: 5px solid white;
-    max-width: 500px;
+    max-width: 80vw;
     margin: 20px auto; }
     @media (min-width: 768px) and (max-width: 1023px) {
       .hero .right {
@@ -633,7 +628,7 @@ body {
                 flex: 1 0 auto;
         text-align: center;
         margin: 0 auto;
-        color: #008fd3;
+        color: white;
         background-color: rgba(255, 255, 255, 0.4);
         height: 52px;
         line-height: 52px;
@@ -707,7 +702,7 @@ body {
                 flex: 1 0 auto;
         text-align: center;
         margin: 0 auto;
-        color: #008fd3;
+        color: white;
         background-color: rgba(255, 255, 255, 0.4);
         height: 52px;
         line-height: 52px;
@@ -716,6 +711,16 @@ body {
     .home-offers .home-summer-destinations .home-summer-destinations-content {
       background-color: rgba(255, 255, 255, 0.8);
       margin: 10px 0; }
+      .home-offers .home-summer-destinations .home-summer-destinations-content .summer-destinations-top-four {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%; }
+        .home-offers .home-summer-destinations .home-summer-destinations-content .summer-destinations-top-four img {
+          position: absolute;
+          top: -1px;
+          right: 10px;
+          width: 50px; }
       .home-offers .home-summer-destinations .home-summer-destinations-content .summer-destinations-list {
         list-style: none;
         padding: 0 25px; }
