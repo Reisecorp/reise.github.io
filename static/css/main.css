@@ -472,15 +472,17 @@ body {
             break-inside: avoid;
     min-height: 250px;
     color: white; }
-  .services .service-title {
-    font-weight: bold;
-    width: 90%;
-    display: block;
-    margin: 10px auto; }
-  .services .service-description {
-    padding: 0 20px;
-    text-align: justify;
-    font-size: 12px; }
+    .services .service .service-icon img {
+      width: 10em; }
+    .services .service .service-title {
+      font-weight: bold;
+      width: 90%;
+      display: block;
+      margin: 10px auto; }
+    .services .service .service-description {
+      padding: 0 20px;
+      text-align: justify;
+      font-size: 12px; }
 
 .hero {
   display: -webkit-box;

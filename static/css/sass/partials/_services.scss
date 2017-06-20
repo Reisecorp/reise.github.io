@@ -58,17 +58,24 @@
 		min-height: 250px;
 		color: white;
 
+		.service-icon{
+			img{
+				width: 10em;
+			}
+		}
+		.service-title{
+			font-weight: bold;
+			width: 90%;
+			display: block;
+			margin: 10px auto;	
+		}
+		.service-description{
+			padding:0 20px;
+			text-align:justify;
+			font-size: 12px;
+		}
+
 	}
-	.service-title{
-		font-weight: bold;
-		width: 90%;
-		display: block;
-		margin: 10px auto;	
-	}
-	.service-description{
-		padding:0 20px;
-		text-align:justify;
-		font-size: 12px;
-	}
+
 
 }

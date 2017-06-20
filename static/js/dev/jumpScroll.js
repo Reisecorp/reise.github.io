@@ -13,8 +13,6 @@
          });
      }
 
-     // $('html, body').hide();
-
      $(document).ready(function () {
          $("[href^='#']").bind("click", jump);
 
