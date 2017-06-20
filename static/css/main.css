@@ -1279,14 +1279,17 @@ body {
   .why-us-content .why-us-content-blocks .why-us-block {
     margin: 10px 0;
     width: 100%; }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .why-us-content .why-us-content-blocks .why-us-block {
+        width: 100%; } }
     @media (min-width: 1024px) {
       .why-us-content .why-us-content-blocks .why-us-block {
         width: 32%; } }
     .why-us-content .why-us-content-blocks .why-us-block .why-us-block-slider {
       width: 100%; }
       .why-us-content .why-us-content-blocks .why-us-block .why-us-block-slider .why-us-block-slide img {
-        width: auto;
-        height: 200px; }
+        width: 100%;
+        height: auto; }
     .why-us-content .why-us-content-blocks .why-us-block .why-us-block-title {
       background: #009c9e;
       color: white;

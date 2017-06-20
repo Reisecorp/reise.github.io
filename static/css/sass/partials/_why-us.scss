@@ -59,7 +59,9 @@
 		.why-us-block{
 			margin: 10px 0;
 			width: 100%;
-
+			@include breakpoint($tablet){
+				width:100%;
+			}
 			@include breakpoint($desktop){
 				width:32%;
 			}
@@ -68,8 +70,8 @@
 
 				.why-us-block-slide{
 					img{
-						width: auto;
-						height: 200px;
+						width: 100%;
+						height: auto;
 					}
 				}
 			}
