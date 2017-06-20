@@ -1,6 +1,6 @@
 ---
 layout: destination
-image: jodhpur.jpg
+image: jodhpur.png
 title: Jodhpur
 
 

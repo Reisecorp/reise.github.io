@@ -8,7 +8,11 @@ layout: base
 
 	<div class="destination-category-hero" style="background-image: url('{{ site.staticfiles | prepend: site.baseurl }}/img/categories/{{ destination.image}}');" ><span class="destination-category-hero-title">{{ destination.label | replace: '-', ' ' | capitalize }}</span></div>
 
-	<div class="destination-category-tagline">{{ page.tagline }}</div>
+	{% if page.tagline %}
+		<div class="destination-category-tagline">
+			{{ page.tagline }}
+		</div>
+	{% endif %}
 	<div class="destination-category-cards">
 		{% for place in destination.docs %}
 		{% capture title %}{{ place.title | downcase }}{% endcapture %}

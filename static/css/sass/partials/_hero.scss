@@ -32,34 +32,21 @@
 		}
 		
 
-		.binoculars{
-
-			img{
-				display: block;
-				width: 80px;
-				margin: 30px auto;
-
-			}
-
-		}
-
 		.hero-social-icons{
 		display: flex;
 		width: 100%;
 		border-top: 5px dashed white;
 		border-bottom: 5px dashed white;
 		padding: 1px 10px;
+		justify-content: space-between;
 
 
-		
-
-			.hero-social-icon{
-
+			a{
 				color: white;
-				text-align: center;
-				margin: 0 auto;
-				box-sizing: border-box;
 				font-size: 2em;
+				text-align: center;
+				box-sizing: border-box;
+				
 
 
 				@include breakpoint($tablet){
@@ -69,31 +56,26 @@
 				@include breakpoint($tablet){
 					font-size: 3em;
 				}
+				.hero-social-icon{
+
+					
+
+
+				}
+
 			}
-
-
 
 		}
 
-		.hero-search-link{
-			a{
+		.icon-slider{
+			.icon-slide{
+				padding: 50px;
 				img{
 					width: 200px;
-					display: block;
-					margin: 10px auto;
 				}
 			}
 		}
 
-		.hero-search-link-below{
-			text-align: center;
-			color: white;
-			font-weight: bold;
-			font-size: 20px;
-			margin: 5px auto;
-			border: 5px solid white;
-			padding: 10px 40px;
-		}
 	}
 
 

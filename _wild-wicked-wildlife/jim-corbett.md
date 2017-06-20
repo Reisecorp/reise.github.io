@@ -1,6 +1,6 @@
 ---
 layout: destination
-image: mt-rushmore.jpg
+image: jim-corbett.jpg
 title: Jim Corbett
 
 ---
