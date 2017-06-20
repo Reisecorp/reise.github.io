@@ -22,6 +22,22 @@ $(document).ready(function(){
 			slidesToScroll: 1,
 			
 		});
+	$('.summer-destinations-list').slick(
+		{
+			arrows: false,
+			autoplay: true,
+			speed: 500,
+			fade: true,
+			Infinite: true,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			
+		});
+	$('.testimonials').slick(
+		{
+		arrows: false,
+		autoplay: true
+	});
 });
 // Toggle the menu
 $(document).ready(function(){
@@ -89,11 +105,3 @@ $(document).ready(function(){
 		});
 	});	
 });	
-
-$(document).ready(function(){
-	$('.testimonials').slick(
-	{
-		arrows: false,
-		autoplay: true
-	});
-});
