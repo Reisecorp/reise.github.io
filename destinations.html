@@ -17,7 +17,7 @@ title: Destinations
 			{% capture label %}{{ destination.label | slugify }}{% endcapture %}
 			<div class="destination-card">
 					<div class="destination-card-picture-parent">
-						<div class="destination-card-picture" style="background-image: url('{{ site.staticfiles | prepend: site.baseurl }}/img/{{ destination.image }}');">
+						<div class="destination-card-picture" style="background-image: url('{{ site.staticfiles | prepend: site.baseurl }}/img/categories/{{ destination.image }}');">
 							<a href="{{ site.baseurl }}/destinations/{{ destination.label }}">{{ destination.label | replace: '-', ' ' | capitalize }}</a>
 						</div>
 					</div>

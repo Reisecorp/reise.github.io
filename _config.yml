@@ -49,24 +49,24 @@ collections:
   lasting-leisure:
     output: true
     permalink: /destinations/:collection/:path/
-    image: 'mt-rushmore.jpg'
+    image: 'lasting-leisure.jpg'
   peek-into-past:
     output: true
     permalink: /destinations/:collection/:path/
-    image: 'mt-rushmore.jpg'
+    image: 'peek-into-past.jpg'
   seasoned-short-getaways:
     output: true
     permalink: /destinations/:collection/:path/
-    image: 'mt-rushmore.jpg'
+    image: 'seasoned-short-getaways.jpg'
   sunny-days-out:
     output: true
     permalink: /destinations/:collection/:path/
-    image: 'mt-rushmore.jpg'
+    image: 'sunny-days-out.jpg'
   unstoppable-adventures:
     output: true
     permalink: /destinations/:collection/:path/
-    image: 'mt-rushmore.jpg'
+    image: 'unstoppable-adventures.jpg'
   wild-wicked-wildlife  :
     output: true
     permalink: /destinations/:collection/:path/
-    image: 'mt-rushmore.jpg'
+    image: 'wild-wicked-wildlife.jpg'
