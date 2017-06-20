@@ -38,4 +38,37 @@ $(document).ready(function(){
 		arrows: false,
 		autoplay: true
 	});
+	$('#food-slider').slick(
+		{
+			arrows: false,
+			autoplay: true,
+			speed: 500,
+			fade: true,
+			Infinite: true,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			
+		});
+	$('#acco-slider').slick(
+		{
+			arrows: false,
+			autoplay: true,
+			speed: 500,
+			fade: true,
+			Infinite: true,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			
+		});
+	$('#transport-slider').slick(
+		{
+			arrows: false,
+			autoplay: true,
+			speed: 500,
+			fade: true,
+			Infinite: true,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			
+		});
 });

@@ -1,0 +1,55 @@
+---
+
+layout: base
+permalink: /why-us/
+
+---
+
+<div class="why-us-text">
+Reise stands steadfast as a premiere organization that unequivocally assists institutions in arranging tours and trips of various sorts ranging from quick getaways to adventure infused outings. Our services stand par excellence in terms of quality and unfailing consistency which catapults us to be your first and finest choice.
+At Reise our sole focus lies on organizing impeccable outings for schools for which we are inclined immaculately towards and working laboriously. 
+It is always a delight to shoulder competence while organizing tours and trips keeping in purview the need of students to explore the land which offers innumerable outlooks and benefits them to imbibe the emotive and perspective aspects of life and nature through engaging and evocative travel.
+We traverse terrains, cover bustling hilltops, hush over to idyllic spots and dash away to alluring landscapes to outdistance the chaos and bangarang of the city life.
+Youth hastens on teenagers dramatically when the eyes are neither green nor blue rather a subtle mixture of the two and undeniably one craves to explore everything new. This phase marks too the advent of would-be traveller, surfacing one's admiration for wanderlust. We at Reise have the knack to understand this remarkable upsurge and therefore to satiate this wistful desire we arrange tours exclusively and excellently for the school students.
+</div>
+<div class="why-us-content">
+	<div class="why-us-content-title">WHEN WE ORGANIZE YOUR TRIPS</div>
+	<div class="why-us-content-blocks">
+		<div class="why-us-block">
+			<div class="why-us-block-slider" id="food-slider">
+				{% for file in site.static_files %}
+					{% if file.path contains 'img/why-us/food' %}
+						<div class="why-us-block-slide">
+							<img src="{{file.path}}" alt=""/>
+						</div>
+					{% endif %}
+				{% endfor %}
+			</div>
+			<div class="why-us-block-title">Delicious and hygienic food </div>
+		</div>
+		<div class="why-us-block">
+			<div class="why-us-block-slider" id="acco-slider">
+				{% for file in site.static_files %}
+					{% if file.path contains 'img/why-us/acco' %}
+						<div class="why-us-block-slide">
+							<img src="{{file.path}}" alt=""/>
+						</div>
+					{% endif %}
+				{% endfor %}				
+			</div>
+			<div class="why-us-block-title">Good Transportation </div>
+		</div>
+		<div class="why-us-block">
+			<div class="why-us-block-slider" id="transport-slider">
+				{% for file in site.static_files %}
+					{% if file.path contains 'img/why-us/transport' %}
+						<div class="why-us-block-slide">
+							<img src="{{file.path}}" alt=""/>
+						</div>
+					{% endif %}
+				{% endfor %}				
+			</div>
+			<div class="why-us-block-title">Luxurious and relaxing accomodation</div>
+		</div>
+	</div>
+</div>
