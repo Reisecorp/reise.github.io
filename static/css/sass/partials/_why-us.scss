@@ -15,9 +15,9 @@
 	.why-us-content-title{
 		margin: 20px auto;
 		font-size: 30px;
-		color: $dark-turquoise;
+		color: white;
 		text-align: center;
-		background: $transparent-white-bg;
+		border: 10px solid white;
 		padding: 20px;
 	}
 	.why-us-content-blocks{
@@ -42,8 +42,8 @@
 
 				.why-us-block-slide{
 					img{
-						width: 100%;
-						border: 10px solid white;
+						width: auto;
+						height: 200px;
 					}
 				}
 			}
