@@ -1,6 +1,6 @@
 ---
 layout: destination
-image: mt-rushmore.jpg
+image: mcleodganj.jpg
 title: McMcLeodganj And Dharamshala
 
 ---
