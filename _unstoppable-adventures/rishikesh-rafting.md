@@ -1,6 +1,6 @@
 ---
 layout: destination
-image: mt-rushmore.jpg
+image: rishikesh.jpg
 title: Rishikesh
 ---
 It is renowned as one of the most sacred places for the Hindus of the land and this place has been abode for saints and sages to meditate over rigorously with aim of attaining higher knowledge and it served as abeyance from the mundane world. Rishikesh is clasped by three districts - Pauri Garwhal , Tehri Garwhal and Haridwar. These neighboring areas too are not far away and the trip to the trio can be easily devised. The mighty Ganges flows in full spate in Rishikesh  and the sight of this intimidating river invigorates your senses. 

@@ -1,6 +1,6 @@
 ---
 layout: destination
-image: mt-rushmore.jpg
+image: bikaner.jpg
 title: Bikaner
 ---
 Bikaner prides itself by being hailed as one of the oldest establishments in Rajasthan. The grandiose of the city can be witnessed in the magnificent architectural galore which enunciates prolific luxury and opulence. The forts and palaces are built of sandstone which exudes aristocratic charisma ,  epitomizing power and pertinence.
