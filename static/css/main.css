@@ -910,7 +910,8 @@ body {
           text-decoration: none; }
     .destinations-categories .destination-card .destination-card-places .destination-card-places-list {
       list-style: none;
-      padding: 5px 0; }
+      padding: 5px 0;
+      margin: 2px auto; }
       .destinations-categories .destination-card .destination-card-places .destination-card-places-list li {
         display: inline-block;
         -webkit-border-radius: 5px;
@@ -918,7 +919,7 @@ body {
         background-color: #009c9e;
         padding: 2px 5px;
         color: white;
-        margin: 5px auto; }
+        margin: 2px auto; }
         .destinations-categories .destination-card .destination-card-places .destination-card-places-list li a {
           color: white;
           text-decoration: none; }
