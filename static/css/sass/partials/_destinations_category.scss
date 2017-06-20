@@ -7,7 +7,7 @@
 	font-size: 25px;
 	font-weight: bold;
 	color: white;
-	border: 10px solid white;
+	border: 5px solid white;
 	margin: 20px auto;
 
 	@include breakpoint($tablet){
@@ -55,7 +55,7 @@
 		display: flex;
 		flex-direction: column;
 		background: $transparent-white-bg;
-		padding: 10px;
+		padding: 5px;
 		margin: 10px auto;
 		width: 100%;
 
