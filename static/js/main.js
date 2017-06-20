@@ -18,6 +18,7 @@ $(document).ready(function(){
 			Infinite: true,
 			slidesToShow: 5,
 			slidesToScroll: 1,
+			draggable: false,
 			centerMode: true,
 			focusOnSelect: true,
 			asNavFor: '.gallery-container-main',
