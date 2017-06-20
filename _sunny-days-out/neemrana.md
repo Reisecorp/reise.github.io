@@ -1,6 +1,6 @@
 ---
 layout: destination
-image: neemrana.jpg
+image: neemrana.png
 title: Neemrana
 
 ---

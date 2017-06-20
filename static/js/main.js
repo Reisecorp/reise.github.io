@@ -2,14 +2,27 @@ $(document).ready(function(){
 	$('.gallery-container-main').slick(
 		{
 			arrows: false,
-			autoplay: true,
 			speed: 500,
 			fade: true,
 			Infinite: true,
 			slidesToShow: 1,
 			slidesToScroll: 1,
+			draggable: false
 			
 		});
+	$('.gallery-container-nav').slick(
+		{
+			arrows: false,
+			autoplay: true,
+			speed: 500,
+			Infinite: true,
+			slidesToShow: 5,
+			slidesToScroll: 1,
+			centerMode: true,
+			focusOnSelect: true,
+			asNavFor: '.gallery-container-main',
+			
+		});	
 	$('.icon-slider').slick(
 		{
 			arrows: false,

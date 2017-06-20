@@ -14,5 +14,15 @@
 			{% endif %}
 		{% endfor %}
 	</div>
-
+	<div class="gallery-container-nav">
+	{% for file in site.static_files %}
+			{% if file.path contains 'img/gallery' %}
+		
+				<div class="gallery-nav-image">
+					<img src="{{file.path}}" alt=""/>
+				</div>
+			
+			{% endif %}
+		{% endfor %}
+	</div>
 </div>
