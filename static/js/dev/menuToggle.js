@@ -1,7 +1,6 @@
 // Toggle the menu
 $(document).ready(function(){
 	if ($('.nav').css('flex-direction')=='column'){
-			$('#menu-toggle-button-close').hide();
 			$('.nav').hide();
 
 	} else if ($('.nav').css('flex-direction')=='row'){
@@ -17,24 +16,9 @@ $(window).on('resize',function(){
 	}
 	
 });
-$('#menu-toggle-button').on('click',function(){
-		// $(this).toggleClass( "fa-bars" );
-		$('#menu-toggle-button').hide();
-		$('#menu-toggle-button-close').show();
+$('.menu-toggle').on('click',function(){
 
-		$('.nav').slideDown({
-			duration: 300,
-			easing: 'swing'
-		});
-
-});
-
-$('#menu-toggle-button-close').on('click',function(){
-		// $(this).toggleClass( "fa-bars" );
-		$('#menu-toggle-button').show();
-		$('#menu-toggle-button-close').hide();
-
-		$('.nav').slideUp({
+		$('.nav').slideToggle({
 			duration: 300,
 			easing: 'swing'
 		});
