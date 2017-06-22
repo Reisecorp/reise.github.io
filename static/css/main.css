@@ -932,7 +932,8 @@ body {
                   transform: scale(1.1); }
         .destinations-categories .destination-card .destination-card-picture-parent .destination-card-picture a {
           color: white;
-          text-decoration: none; }
+          text-decoration: none;
+          text-transform: capitalize; }
     .destinations-categories .destination-card .destination-card-places .destination-card-places-list {
       list-style: none;
       padding: 5px 0;
@@ -977,7 +978,8 @@ body {
     margin: auto;
     -webkit-align-self: center;
         -ms-flex-item-align: center;
-            align-self: center; }
+            align-self: center;
+    text-transform: capitalize; }
 
 .destination-category-tagline {
   display: block;
@@ -1288,8 +1290,9 @@ body {
     .why-us-content .why-us-content-blocks .why-us-block .why-us-block-slider {
       width: 100%; }
       .why-us-content .why-us-content-blocks .why-us-block .why-us-block-slider .why-us-block-slide img {
-        width: 100%;
-        height: auto; }
+        width: auto;
+        height: 200px;
+        margin: 0 auto; }
     .why-us-content .why-us-content-blocks .why-us-block .why-us-block-title {
       background: #009c9e;
       color: white;
