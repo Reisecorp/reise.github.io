@@ -22,6 +22,15 @@ $(document).ready(function(){
 			centerMode: true,
 			focusOnSelect: true,
 			asNavFor: '.gallery-container-main',
+			responsive: [
+				{
+					breakpoint: 480,
+					settings: {
+						slidesToShow: 1,
+
+					}
+				}
+			]
 			
 		});	
 	$('.icon-slider').slick(

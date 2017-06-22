@@ -457,7 +457,8 @@ body {
     -webkit-column-break-after: column;
        page-break-after: column;
             break-after: column;
-    margin: auto auto; }
+    margin: auto auto;
+    vertical-align: middle; }
   .services .service {
     display: -webkit-box;
     display: -webkit-flex;
@@ -583,13 +584,20 @@ body {
         max-width: 60%;
         border-width: 10px;
         margin: 20px 0 20px auto; } }
+    .hero .right #fontchange {
+      font-size: 35px; }
+      @media (max-width: 767px) {
+        .hero .right #fontchange {
+          font-size: -webkit-calc(20px + 2vw);
+          font-size: calc(20px + 2vw); } }
     .hero .right .right-text {
       color: white;
       font-size: -webkit-calc(20px + 2vw);
       font-size: calc(20px + 2vw);
       line-height: -webkit-calc(24px + 2vw);
       line-height: calc(24px + 2vw);
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      word-break: normal; }
       @media (min-width: 768px) and (max-width: 1023px) {
         .hero .right .right-text {
           font-size: -webkit-calc(27px + 2vw);
@@ -1256,7 +1264,7 @@ body {
 
 .why-us-content .why-us-content-title {
   margin: 20px auto;
-  font-size: 30px;
+  font-size: 20px;
   color: white;
   text-align: center;
   border: 10px solid white;
@@ -1297,7 +1305,7 @@ body {
       width: 100%; }
       .why-us-content .why-us-content-blocks .why-us-block .why-us-block-slider .why-us-block-slide img {
         width: auto;
-        height: 200px;
+        height: 300px;
         margin: 0 auto; }
     .why-us-content .why-us-content-blocks .why-us-block .why-us-block-title {
       background: #009c9e;

@@ -100,12 +100,18 @@
 			margin: 20px 0 20px auto;
 
 		}
-
+		#fontchange{
+			font-size: 35px;
+			@include breakpoint($mobile){
+				font-size: calc(20px + 2vw);
+			}
+		}
 		.right-text{
 			color: white;
 			font-size: calc(20px + 2vw);
 			line-height: calc(24px + 2vw);
 			margin-bottom: 20px;
+			word-break: normal;
 
 			@include breakpoint($tablet){
 				font-size: calc(27px + 2vw);
