@@ -384,7 +384,9 @@ body {
         height: 50px;
         margin: 10px auto;
         display: block;
-        font-weight: bold; }
+        font-weight: bold;
+        outline: 0;
+        cursor: pointer; }
 
 .testimonials {
   width: 70%;

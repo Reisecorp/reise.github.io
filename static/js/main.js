@@ -1,3 +1,7 @@
+$('#footer-form-submit-button').on('click',function(){
+	$("form").submit();
+	console.log('woo');
+});
 $(document).ready(function(){
 	$('.gallery-container-main').slick(
 		{
@@ -148,10 +152,6 @@ $(document).ready(function(){
          }
      });
  })(jQuery)
-// Toggle the menu
-
-
-
 $(document).ready(function(){
 
 	$('.request-quote').on('click',function(){

@@ -148,6 +148,8 @@
 				margin: 10px auto;
 				display: block;
 				font-weight: bold;
+				outline: 0;
+				cursor: pointer;
 
 				@include breakpoint($desktop){
 
