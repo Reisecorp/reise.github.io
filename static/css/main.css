@@ -453,6 +453,11 @@ body {
         -webkit-column-gap: 20px;
            -moz-column-gap: 20px;
                 column-gap: 20px; } }
+  .services #middle {
+    -webkit-column-break-after: column;
+       page-break-after: column;
+            break-after: column;
+    margin: auto auto; }
   .services .service {
     display: -webkit-box;
     display: -webkit-flex;
@@ -474,7 +479,8 @@ body {
     min-height: 250px;
     color: white; }
     .services .service .service-icon img {
-      width: 15em; }
+      width: -webkit-calc(10em + 5vw);
+      width: calc(10em + 5vw); }
     .services .service .service-title {
       font-weight: bold;
       width: 90%;
@@ -661,7 +667,7 @@ body {
         border: 5px solid rgba(255, 255, 255, 0.4); }
       .home-offers .home-handpicked-offers .home-handpicked-offers-header .handpicked-offers-title {
         font-weight: bold;
-        font-size: 18px;
+        font-size: 25px;
         -webkit-box-flex: 1;
         -webkit-flex: 1 0 auto;
             -ms-flex: 1 0 auto;
@@ -750,7 +756,7 @@ body {
         border: 5px solid rgba(255, 255, 255, 0.4); }
       .home-offers .home-summer-destinations .home-summer-destinations-header .summer-destinations-title {
         font-weight: bold;
-        font-size: 18px;
+        font-size: 25px;
         -webkit-box-flex: 1;
         -webkit-flex: 1 0 auto;
             -ms-flex: 1 0 auto;

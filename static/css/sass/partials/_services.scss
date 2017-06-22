@@ -46,6 +46,10 @@
 			column-gap: 20px;
 		}
 	}
+	#middle{
+		break-after: column;
+		margin: auto auto;
+	}
 	.service{
 		display: flex;
 		flex-direction: column;
@@ -60,7 +64,7 @@
 
 		.service-icon{
 			img{
-				width: 15em;
+				width: calc(10em + 5vw);
 			}
 		}
 		.service-title{
