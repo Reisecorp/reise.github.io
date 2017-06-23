@@ -1,15 +1,14 @@
 .hero{
 	display: flex;
 	flex-direction: column;
+	margin: 0 auto;
 
 	@include breakpoint($tablet){
 		flex-direction: row;
-		margin: 0 auto;
 	}
 
 	@include breakpoint($desktop){
 		flex-direction: row;
-		margin: 0 auto;
 	}
 	
 
@@ -69,7 +68,7 @@
 
 		.icon-slider{
 			.icon-slide{
-				padding: 50px;
+				padding: 0 50px;
 				img{
 					width: 200px;
 				}
@@ -101,7 +100,7 @@
 
 		}
 		#fontchange{
-			font-size: 35px;
+			font-size: 40px;
 			@include breakpoint($mobile){
 				font-size: calc(20px + 2vw);
 			}
@@ -109,18 +108,18 @@
 		.right-text{
 			color: white;
 			font-size: calc(20px + 2vw);
-			line-height: calc(24px + 2vw);
+			line-height: calc(20px + 2vw);
 			margin-bottom: 20px;
 			word-break: normal;
 
 			@include breakpoint($tablet){
-				font-size: calc(27px + 2vw);
-				line-height: calc(24px + 2vw);
+				font-size: calc(20px + 2vw);
+				line-height: calc(20px + 2vw);
 			}
 
 			@include breakpoint($desktop){
-				font-size: calc(23px + 2vw);
-				line-height: calc(24px + 2vw);
+				font-size: calc(20px + 2vw);
+				line-height: calc(20px + 2vw);
 			}
 
 		}
