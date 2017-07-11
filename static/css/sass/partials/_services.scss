@@ -1,22 +1,22 @@
 .services{
 	opacity: 0.95;
-	width: 100%;
+	width: 38%;
 	height: auto;
-	padding: 20px 0;
-	margin: 20px auto;
+	margin: 20px 0;
 
 	.services-heading{
 
 		display: flex;
 		flex-direction: row;
-		margin: 10px auto;
+		
 		i{
-			border: 10px solid $more-transparent-white-bg;		
+			border: 5px solid $more-transparent-white-bg;		
 			margin-right: 10px;
 			font-size: 2em;
 			color: white;
-			height: 90px;
-			padding: 20px;
+			height: 52px;
+			width: 52px;
+			padding: 5px;
 		}
 		.services-title{
 			flex: 1 0 auto;
@@ -24,8 +24,8 @@
 			font-weight: bold;
 			color: white;
 			font-size: 25px;
-			height: 90px;
-			line-height: 90px;
+			height: 52px;
+			line-height: 52px;
 			background: $more-transparent-white-bg;
 		}
 	}
@@ -35,36 +35,23 @@
 		width: 100%;
 		margin: 10px auto;
 
-		@include breakpoint($tablet){
-			column-count: 2;
-			column-gap: 30px;
-		}
-		@include breakpoint($desktop){
-			
-
-			column-count: 3;
-			column-gap: 20px;
-		}
-	}
-	#middle{
-		break-after: column;
-		margin: auto auto;
-		vertical-align: middle;
 	}
 	.service{
 		display: flex;
+		width: 100%;
 		flex-direction: column;
-		padding: 40px 0;
 		text-align: center;
 		background: $dark-turquoise;
 		margin:0 auto 40px auto; 
-		max-width: 300px;
-		break-inside: avoid;
 		min-height: 250px;
 		color: white;
+		padding: 20px 0;
+		box-sizing: border-box;
 
 		.service-icon{
 			img{
+				display: block;
+				margin: 0 auto;
 				width: calc(10em + 5vw);
 			}
 		}
@@ -75,7 +62,9 @@
 			margin: 10px auto;	
 		}
 		.service-description{
-			padding:0 20px;
+			display: block;
+			margin:0 auto;
+			width:90%;
 			text-align:justify;
 			font-size: 12px;
 		}

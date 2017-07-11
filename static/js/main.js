@@ -59,6 +59,17 @@ $(document).ready(function(){
 			slidesToScroll: 1,
 			
 		});
+	$('.services-table').slick(
+		{
+			arrows: false,
+			autoplay: true,
+			speed: 500,
+			fade: true,
+			Infinite: true,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			
+		});	
 	$('.why-us-content-title').slick(
 		{
 			arrows: false,
