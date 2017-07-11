@@ -1,7 +1,7 @@
 ---
 layout: destination
 image: mcleodganj.jpg
-title: McMcLeodganj And Dharamshala
+title: McLeodganj And Dharamshala
 
 ---
 One of the most befittingly sorted locale chosen by travellers , Mcleodganj  and Dharamshala is the best place to rush off to and trigger the relaxation mode. The place invigorates your being downrightly with cool breeze leaving your hair windblown yet irresistible and senses completely awakened. The aforesaid is complimented immaculately with fine dining experience as the dimly lit restaurants with intricate origami and delectable menu will leave your senses sated. End route to Dharamshala , there rests the beautiful St. John's church surrounded excellently by lush trees and pretty flower cover. A stoppage here is a must to experience plentitude of peace and sobriety. Mcleodganj's market square is famous for its cafés and patisseries which offers wide variety of succulent momos and warm vegetable broths. The locals are hospitable and jolly so much so that hours fly past without your notice. On streets the monks robed in crimson and smitten yellow flash their charming smiles melting you down to the core of your heart. The Dhauladhar range provides a blithe aspect as one can see the mountains exquisitely covered in snow albeit pines in mild season. Namgyal monastery ,Tsuglagkhang , Tibetan museum , Bhagsu falls and temples are the prime locations to visit. Alongside this for the adventurous and valiant souls , the land offers trekking at varied level of strenuosity.The torrential rains during showery season leaves the place incredibly likeable. Trekking is a wonderful ordeal undertake by trek enthusiasts as the levels of elation and ecstasy are unparalleled. 

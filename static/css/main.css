@@ -622,23 +622,23 @@ body {
   -webkit-flex-direction: column-reverse;
       -ms-flex-direction: column-reverse;
           flex-direction: column-reverse;
-  width: 100%; }
+  width: 60%; }
   @media (min-width: 768px) and (max-width: 1023px) {
     .home-offers {
-      -webkit-box-orient: horizontal;
+      -webkit-box-orient: vertical;
       -webkit-box-direction: reverse;
-      -webkit-flex-direction: row-reverse;
-          -ms-flex-direction: row-reverse;
-              flex-direction: row-reverse;
-      margin: 0 auto; } }
+      -webkit-flex-direction: column-reverse;
+          -ms-flex-direction: column-reverse;
+              flex-direction: column-reverse;
+      margin: 0; } }
   @media (min-width: 1024px) {
     .home-offers {
-      -webkit-box-orient: horizontal;
+      -webkit-box-orient: vertical;
       -webkit-box-direction: reverse;
-      -webkit-flex-direction: row-reverse;
-          -ms-flex-direction: row-reverse;
-              flex-direction: row-reverse;
-      margin: 0 auto; } }
+      -webkit-flex-direction: column-reverse;
+          -ms-flex-direction: column-reverse;
+              flex-direction: column-reverse;
+      margin: 0; } }
   .home-offers .home-handpicked-offers {
     display: -webkit-box;
     display: -webkit-flex;
@@ -653,11 +653,11 @@ body {
     margin: 20px auto; }
     @media (min-width: 768px) and (max-width: 1023px) {
       .home-offers .home-handpicked-offers {
-        width: 45%;
+        width: 100%;
         margin: 20px auto; } }
     @media (min-width: 1024px) {
       .home-offers .home-handpicked-offers {
-        max-width: 43%;
+        width: 100%;
         margin: 20px auto; } }
     .home-offers .home-handpicked-offers .home-handpicked-offers-header {
       display: -webkit-box;
@@ -742,11 +742,11 @@ body {
     margin: 20px auto; }
     @media (min-width: 768px) and (max-width: 1023px) {
       .home-offers .home-summer-destinations {
-        width: 45%;
+        width: 100%;
         margin: 20px auto; } }
     @media (min-width: 1024px) {
       .home-offers .home-summer-destinations {
-        width: 55%;
+        width: 100%;
         margin: 20px auto; } }
     .home-offers .home-summer-destinations .home-summer-destinations-header {
       display: -webkit-box;

@@ -1,16 +1,16 @@
 .home-offers{
 	display: flex;
 	flex-direction: column-reverse;
-	width: 100%;
+	width: 60%;
 
 	@include breakpoint($tablet){
-		flex-direction: row-reverse;	
-		margin: 0 auto;
+		flex-direction: column-reverse;	
+		margin: 0;
 	}
 
 	@include breakpoint($desktop){
-		flex-direction: row-reverse;
-		margin: 0 auto;
+		flex-direction: column-reverse;
+		margin: 0;
 	}
 
 	.home-handpicked-offers{
@@ -20,15 +20,15 @@
 		margin: 20px auto;
 
 		@include breakpoint($tablet){
-			width: 45%;
+			width: 100%;
 			margin: 20px auto;
-			
+
 		}
 
 		@include breakpoint($desktop){
-			max-width: 43%;
+			width: 100%;
 			margin: 20px auto;
-
+			
 		}
 
 		.home-handpicked-offers-header{
@@ -108,14 +108,15 @@
 		margin: 20px auto;
 
 		@include breakpoint($tablet){
-			width: 45%;
+			width: 100%;
 			margin: 20px auto;
 
 		}
 
 		@include breakpoint($desktop){
-			width: 55%;
-			margin: 20px auto;			
+			width: 100%;
+			margin: 20px auto;
+
 		}
 
 		.home-summer-destinations-header{

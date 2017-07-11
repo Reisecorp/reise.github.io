@@ -37,7 +37,7 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
     browserSync.reload({stream: true});
 });
 
-gulp.task('browser-sync', ['sass', 'js' , 'jekyll-build'], function() {
+gulp.task('browser-sync', ['sass', 'js' ], function() {
     browserSync({
     	files: paths.siteRoot + '/**',
     	port: 4000,
