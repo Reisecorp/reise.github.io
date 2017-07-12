@@ -47,15 +47,29 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .home-main-content {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
+  @media (min-width: 1024px) {
+    .home-main-content {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
 
 .header {
   display: -webkit-box;
@@ -417,9 +431,16 @@ body {
 
 .services {
   opacity: 0.95;
-  width: 38%;
-  height: auto;
-  margin: 20px 0; }
+  width: 90%;
+  margin: 0 auto; }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .services {
+      width: 38%;
+      margin: 20px 0; } }
+  @media (min-width: 1024px) {
+    .services {
+      width: 38%;
+      margin: 20px 0; } }
   .services .services-heading {
     display: -webkit-box;
     display: -webkit-flex;
@@ -449,10 +470,18 @@ body {
       font-size: 25px;
       height: 52px;
       line-height: 52px;
-      background: rgba(255, 255, 255, 0.4); }
+      background: rgba(255, 255, 255, 0.4);
+      font-size: 18px; }
+      @media (min-width: 768px) and (max-width: 1023px) {
+        .services .services-heading .services-title {
+          font-size: 25px; } }
+      @media (min-width: 1024px) {
+        .services .services-heading .services-title {
+          font-size: 25px; } }
   .services .services-table {
-    width: 100%;
-    margin: 10px auto; }
+    margin: 10px auto;
+    background: #009c9e;
+    height: 590px; }
   .services .service {
     display: -webkit-box;
     display: -webkit-flex;
@@ -466,12 +495,9 @@ body {
             flex-direction: column;
     text-align: center;
     background: #009c9e;
-    margin: 0 auto 40px auto;
-    min-height: 250px;
+    margin: auto 0;
     color: white;
-    padding: 20px 0;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box; }
+    padding: 100px 0 0 0; }
     .services .service .service-icon img {
       display: block;
       margin: 0 auto;
@@ -487,7 +513,7 @@ body {
       margin: 0 auto;
       width: 90%;
       text-align: justify;
-      font-size: 12px; }
+      font-size: 14px; }
 
 .hero {
   display: -webkit-box;
@@ -617,7 +643,8 @@ body {
   -webkit-flex-direction: column-reverse;
       -ms-flex-direction: column-reverse;
           flex-direction: column-reverse;
-  width: 60%; }
+  width: 100%;
+  margin: 0 auto; }
   @media (min-width: 768px) and (max-width: 1023px) {
     .home-offers {
       -webkit-box-orient: vertical;
@@ -625,7 +652,8 @@ body {
       -webkit-flex-direction: column-reverse;
           -ms-flex-direction: column-reverse;
               flex-direction: column-reverse;
-      margin: 0; } }
+      margin: 0;
+      width: 60%; } }
   @media (min-width: 1024px) {
     .home-offers {
       -webkit-box-orient: vertical;
@@ -633,7 +661,8 @@ body {
       -webkit-flex-direction: column-reverse;
           -ms-flex-direction: column-reverse;
               flex-direction: column-reverse;
-      margin: 0; } }
+      margin: 0;
+      width: 60%; } }
   .home-offers .home-handpicked-offers {
     display: -webkit-box;
     display: -webkit-flex;
@@ -682,8 +711,13 @@ body {
         background-color: rgba(255, 255, 255, 0.4);
         height: 52px;
         line-height: 52px;
-        -webkit-box-sizing: border-box;
-                box-sizing: border-box; }
+        font-size: 18px; }
+        @media (min-width: 768px) and (max-width: 1023px) {
+          .home-offers .home-handpicked-offers .home-handpicked-offers-header .handpicked-offers-title {
+            font-size: 25px; } }
+        @media (min-width: 1024px) {
+          .home-offers .home-handpicked-offers .home-handpicked-offers-header .handpicked-offers-title {
+            font-size: 25px; } }
     .home-offers .home-handpicked-offers .home-handpicked-offers-content {
       background-color: rgba(255, 255, 255, 0.8);
       display: -webkit-box;
@@ -696,7 +730,9 @@ body {
           -ms-flex-direction: column;
               flex-direction: column;
       margin: 10px 0;
-      height: 200px; }
+      min-height: 200px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box; }
       .home-offers .home-handpicked-offers .home-handpicked-offers-content .handpicked-offers-list {
         list-style: none;
         -webkit-box-flex: 1;
@@ -774,7 +810,6 @@ body {
         border: 5px solid rgba(255, 255, 255, 0.4); }
       .home-offers .home-summer-destinations .home-summer-destinations-header .summer-destinations-title {
         font-weight: bold;
-        font-size: 25px;
         -webkit-box-flex: 1;
         -webkit-flex: 1 0 auto;
             -ms-flex: 1 0 auto;
@@ -785,8 +820,13 @@ body {
         background-color: rgba(255, 255, 255, 0.4);
         height: 52px;
         line-height: 52px;
-        -webkit-box-sizing: border-box;
-                box-sizing: border-box; }
+        font-size: 18px; }
+        @media (min-width: 768px) and (max-width: 1023px) {
+          .home-offers .home-summer-destinations .home-summer-destinations-header .summer-destinations-title {
+            font-size: 25px; } }
+        @media (min-width: 1024px) {
+          .home-offers .home-summer-destinations .home-summer-destinations-header .summer-destinations-title {
+            font-size: 25px; } }
     .home-offers .home-summer-destinations .home-summer-destinations-content {
       background-color: rgba(255, 255, 255, 0.8);
       margin: 10px 0; }

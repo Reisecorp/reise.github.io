@@ -1,8 +1,17 @@
 .services{
 	opacity: 0.95;
-	width: 38%;
-	height: auto;
-	margin: 20px 0;
+	width: 90%;
+	margin: 0 auto;
+
+	@include breakpoint($tablet){
+		width: 38%;
+		margin: 20px 0;
+	}
+	
+	@include breakpoint($desktop){
+		width: 38%;
+		margin: 20px 0;
+	}
 
 	.services-heading{
 
@@ -27,13 +36,24 @@
 			height: 52px;
 			line-height: 52px;
 			background: $more-transparent-white-bg;
+			font-size: 18px;
+
+			@include breakpoint($tablet){
+				font-size: 25px;
+			}
+			
+			@include breakpoint($desktop){
+				font-size: 25px;
+			}			
 		}
 	}
+
 	.services-table{
 		
 
-		width: 100%;
 		margin: 10px auto;
+		background: $dark-turquoise;
+		height: 590px;
 
 	}
 	.service{
@@ -42,11 +62,9 @@
 		flex-direction: column;
 		text-align: center;
 		background: $dark-turquoise;
-		margin:0 auto 40px auto; 
-		min-height: 250px;
+		margin: auto 0;
 		color: white;
-		padding: 20px 0;
-		box-sizing: border-box;
+		padding: 100px 0 0 0;
 
 		.service-icon{
 			img{
@@ -66,7 +84,7 @@
 			margin:0 auto;
 			width:90%;
 			text-align:justify;
-			font-size: 12px;
+			font-size: 14px;
 		}
 
 	}

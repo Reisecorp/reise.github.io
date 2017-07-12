@@ -27,6 +27,13 @@ body{
 
 .home-main-content{
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: space-between;
+
+	@include breakpoint($tablet){
+		flex-direction: row;
+	}
+	@include breakpoint($desktop){
+		flex-direction: row;
+	}
 }

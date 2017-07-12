@@ -61,6 +61,7 @@ $(document).ready(function(){
 			autoplay: true,
 			speed: 500,
 			fade: true,
+			// vertical: true,
 			Infinite: true,
 			slidesToShow: 1,
 			slidesToScroll: 1,

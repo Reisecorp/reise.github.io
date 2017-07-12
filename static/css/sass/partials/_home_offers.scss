@@ -1,16 +1,19 @@
 .home-offers{
 	display: flex;
 	flex-direction: column-reverse;
-	width: 60%;
+	width: 100%;
+	margin: 0 auto;
 
 	@include breakpoint($tablet){
 		flex-direction: column-reverse;	
 		margin: 0;
+		width: 60%;
 	}
 
 	@include breakpoint($desktop){
 		flex-direction: column-reverse;
 		margin: 0;
+		width: 60%;		
 	}
 
 	.home-handpicked-offers{
@@ -54,7 +57,15 @@
 				background-color: $more-transparent-white-bg;
 			  	height: 52px;
 				line-height: 52px;
-				box-sizing: border-box;
+				font-size: 18px;
+
+				@include breakpoint($tablet){
+					font-size: 25px;
+				}
+				
+				@include breakpoint($desktop){
+					font-size: 25px;
+				}
 
 
 			}
@@ -65,7 +76,8 @@
 			display: flex;
 			flex-direction: column;
 			margin: 10px 0;
-			height: 200px;
+			min-height: 200px;
+			box-sizing: border-box;
 
 			.handpicked-offers-list{
 				list-style: none;
@@ -144,7 +156,6 @@
 
 			.summer-destinations-title{
 				font-weight: bold;
-				font-size: 25px;
 				flex: 1 0 auto;
 				text-align: center;
 				margin: 0 auto;
@@ -152,8 +163,15 @@
 				background-color: $more-transparent-white-bg;
 			  	height: 52px;
 				line-height: 52px;
-				box-sizing: border-box;
+				font-size: 18px;
 
+				@include breakpoint($tablet){
+					font-size: 25px;
+				}
+				
+				@include breakpoint($desktop){
+					font-size: 25px;
+				}	
 
 			}
 		}
