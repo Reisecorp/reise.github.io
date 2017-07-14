@@ -48,6 +48,7 @@ $(document).ready(function(){
 		{
 			arrows: false,
 			autoplay: true,
+			autoplaySpeed: 5000,
 			speed: 500,
 			fade: true,
 			Infinite: true,
@@ -60,19 +61,8 @@ $(document).ready(function(){
 			arrows: false,
 			autoplay: true,
 			speed: 500,
-			fade: true,
-			// vertical: true,
-			Infinite: true,
-			slidesToShow: 1,
-			slidesToScroll: 1,
-			
-		});	
-	$('.why-us-content-title').slick(
-		{
-			arrows: false,
-			autoplay: true,
-			speed: 500,
-			fade: true,
+			autoplaySpeed: 5000,
+			dots: true,
 			Infinite: true,
 			slidesToShow: 1,
 			slidesToScroll: 1,

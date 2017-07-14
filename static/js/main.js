@@ -1,6 +1,6 @@
 $('#footer-form-submit-button').on('click',function(){
+	$('#footer-form-submit-button').text("Thanks, We'll contact you soon!");
 	$("form").submit();
-	console.log('woo');
 });
 $(document).ready(function(){
 	$('.gallery-container-main').slick(
@@ -52,6 +52,7 @@ $(document).ready(function(){
 		{
 			arrows: false,
 			autoplay: true,
+			autoplaySpeed: 5000,
 			speed: 500,
 			fade: true,
 			Infinite: true,
@@ -64,19 +65,8 @@ $(document).ready(function(){
 			arrows: false,
 			autoplay: true,
 			speed: 500,
-			fade: true,
-			// vertical: true,
-			Infinite: true,
-			slidesToShow: 1,
-			slidesToScroll: 1,
-			
-		});	
-	$('.why-us-content-title').slick(
-		{
-			arrows: false,
-			autoplay: true,
-			speed: 500,
-			fade: true,
+			autoplaySpeed: 5000,
+			dots: true,
 			Infinite: true,
 			slidesToShow: 1,
 			slidesToScroll: 1,
@@ -172,4 +162,10 @@ $(document).ready(function(){
 			scrollTop: $(document).height()
 		});
 	});
+	$('.handpicked-offers-more').on('click',function(){
+
+		$('html,body').animate({
+			scrollTop: $(document).height()
+		});
+	});	
 });	

@@ -479,9 +479,35 @@ body {
         .services .services-heading .services-title {
           font-size: 25px; } }
   .services .services-table {
+    list-style-position: inside;
     margin: 10px auto;
     background: #009c9e;
     height: 590px; }
+    .services .services-table .slick-dots {
+      text-align: center;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      padding: 0 50px;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row; }
+      .services .services-table .slick-dots .slick-active {
+        color: white; }
+      .services .services-table .slick-dots li {
+        text-align: center;
+        color: rgba(255, 255, 255, 0.4);
+        padding-left: 10px;
+        font-size: 20px; }
+        .services .services-table .slick-dots li button {
+          display: none; }
   .services .service {
     display: -webkit-box;
     display: -webkit-flex;
@@ -497,10 +523,10 @@ body {
     background: #009c9e;
     margin: auto 0;
     color: white;
-    padding: 100px 0 0 0; }
+    padding: 80px 0 0 0; }
     .services .service .service-icon img {
       display: block;
-      margin: 0 auto;
+      margin: 20px auto;
       width: -webkit-calc(10em + 5vw);
       width: calc(10em + 5vw); }
     .services .service .service-title {
@@ -586,9 +612,10 @@ body {
           .hero .left .hero-social-icons a {
             font-size: 3em; } }
     .hero .left .icon-slider .icon-slide {
-      padding: 10px 50px; }
+      padding: 10px 0;
+      margin: 0 auto; }
       .hero .left .icon-slider .icon-slide img {
-        width: 200px; }
+        width: 100%; }
   .hero .right {
     display: block;
     padding: 10px;
@@ -768,7 +795,8 @@ body {
         -webkit-justify-content: flex-end;
             -ms-flex-pack: end;
                 justify-content: flex-end;
-        color: #008fd3; }
+        color: #008fd3;
+        cursor: pointer; }
         .home-offers .home-handpicked-offers .home-handpicked-offers-content .handpicked-offers-more i {
           font-size: 1.5em; }
         .home-offers .home-handpicked-offers .home-handpicked-offers-content .handpicked-offers-more .handpicked-offers-details {
@@ -1208,7 +1236,7 @@ body {
     width: 80%;
     color: white;
     font-weight: bold;
-    background: black;
+    background: #009c9e;
     margin: 0 auto;
     padding: 10px 20px;
     text-align: center;
@@ -1324,7 +1352,7 @@ body {
 
 .why-us-content .why-us-content-title {
   margin: 20px auto;
-  font-size: 20px;
+  font-size: 25px;
   color: white;
   text-align: center;
   border: 10px solid white;

@@ -50,10 +50,34 @@
 
 	.services-table{
 		
-
+		list-style-position: inside;
 		margin: 10px auto;
 		background: $dark-turquoise;
 		height: 590px;
+
+		.slick-dots{
+			text-align: center;
+			display: flex;
+			padding: 0 50px;
+			justify-content: space-between;
+			flex-direction: row;
+
+			.slick-active{
+				color: white;
+			}
+
+			li{
+				text-align: center;
+				color: $more-transparent-white-bg;
+				padding-left:10px;
+				font-size: 20px;
+
+
+				button{
+					display: none;
+				}
+			}
+		}
 
 	}
 	.service{
@@ -64,12 +88,12 @@
 		background: $dark-turquoise;
 		margin: auto 0;
 		color: white;
-		padding: 100px 0 0 0;
+		padding: 80px 0 0 0;
 
 		.service-icon{
 			img{
 				display: block;
-				margin: 0 auto;
+				margin: 20px auto;
 				width: calc(10em + 5vw);
 			}
 		}
