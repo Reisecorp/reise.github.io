@@ -84,22 +84,16 @@
 				flex: 1 0 auto;
 				padding: 10px 25px;
 
-				.handpicked-offer{
+				.handpicked-offer-link{
 
 					display: flex;
 					flex-direction: row;
+					color: $spec-blue;
 
 					i{
 						padding: 0 10px;
 						color: $spec-blue;
 						
-					}
-
-					.handpicked-offer-link{
-						display: block;
-						text-decoration: none;
-						color: $spec-blue;
-						vertical-align: middle;
 					}
 				}
 			}

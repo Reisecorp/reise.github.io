@@ -767,7 +767,7 @@ body {
             -ms-flex: 1 0 auto;
                 flex: 1 0 auto;
         padding: 10px 25px; }
-        .home-offers .home-handpicked-offers .home-handpicked-offers-content .handpicked-offers-list .handpicked-offer {
+        .home-offers .home-handpicked-offers .home-handpicked-offers-content .handpicked-offers-list .handpicked-offer-link {
           display: -webkit-box;
           display: -webkit-flex;
           display: -ms-flexbox;
@@ -776,15 +776,11 @@ body {
           -webkit-box-direction: normal;
           -webkit-flex-direction: row;
               -ms-flex-direction: row;
-                  flex-direction: row; }
-          .home-offers .home-handpicked-offers .home-handpicked-offers-content .handpicked-offers-list .handpicked-offer i {
+                  flex-direction: row;
+          color: #008fd3; }
+          .home-offers .home-handpicked-offers .home-handpicked-offers-content .handpicked-offers-list .handpicked-offer-link i {
             padding: 0 10px;
             color: #008fd3; }
-          .home-offers .home-handpicked-offers .home-handpicked-offers-content .handpicked-offers-list .handpicked-offer .handpicked-offer-link {
-            display: block;
-            text-decoration: none;
-            color: #008fd3;
-            vertical-align: middle; }
       .home-offers .home-handpicked-offers .home-handpicked-offers-content .handpicked-offers-more {
         padding: 10px;
         display: -webkit-box;
